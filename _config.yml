@@ -1,0 +1,40 @@
+title: "Vagos"
+tagline: ""
+description: ""
+github_username: "Vagos"
+baseurl: ""
+url: "https://vagoslabrou.xyz"
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+highlighter: rouge
+
+collections:
+
+  entries: 
+    output: true
+
+  drafts:
+    output: false
+
+  guests:
+    output: false
+
+header_pages:
+  - pages/index.md
+  - pages/things.md
+  - pages/about.md
+  - pages/posts.md
+
+# set the size of the text to 'large' or 'small', default is small
+font-size: small
+
+feed:
+  collections:
+    - entries
