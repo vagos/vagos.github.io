@@ -1,1 +1,1 @@
-Sitemap: https://vagoslabrou.xyz/sitemap.xml
+Sitemap: https://vagos.github.io/sitemap.xml

@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://vagoslabrou.xyz/feed/entries.xml" rel="self" type="application/atom+xml" /><link href="https://vagoslabrou.xyz/" rel="alternate" type="text/html" /><updated>2022-03-29T14:43:48+03:00</updated><id>https://vagoslabrou.xyz/feed/entries.xml</id><title type="html">Vagos | Entries</title><subtitle></subtitle><entry><title type="html">What I Use</title><link href="https://vagoslabrou.xyz/entries/What-I-Use.html" rel="alternate" type="text/html" title="What I Use" /><published>2022-03-29T14:43:48+03:00</published><updated>2022-03-29T14:43:48+03:00</updated><id>https://vagoslabrou.xyz/entries/What-I-Use</id><content type="html" xml:base="https://vagoslabrou.xyz/entries/What-I-Use.html">&lt;h3 id=&quot;operating-system&quot;&gt;Operating System&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://vagos.github.io/feed/entries.xml" rel="self" type="application/atom+xml" /><link href="https://vagos.github.io/" rel="alternate" type="text/html" /><updated>2022-03-31T21:24:33+03:00</updated><id>https://vagos.github.io/feed/entries.xml</id><title type="html">Vagos | Entries</title><subtitle></subtitle><entry><title type="html">What I Use</title><link href="https://vagos.github.io/entries/What-I-Use.html" rel="alternate" type="text/html" title="What I Use" /><published>2022-03-31T21:24:33+03:00</published><updated>2022-03-31T21:24:33+03:00</updated><id>https://vagos.github.io/entries/What-I-Use</id><content type="html" xml:base="https://vagos.github.io/entries/What-I-Use.html"><![CDATA[<h3 id="operating-system">Operating System</h3>
 
-&lt;p&gt;On my main desktop machine I have Windows 10 dual booted with Arch Linux and just Arch on my Laptop.&lt;/p&gt;
+<p>On my main desktop machine I have Windows 10 dual booted with Arch Linux and just Arch on my Laptop.</p>
 
-&lt;h3 id=&quot;music&quot;&gt;Music&lt;/h3&gt;
+<h3 id="music">Music</h3>
 
-&lt;p&gt;I use &lt;a href=&quot;https://github.com/ncmpcpp/ncmpcpp&quot;&gt;ncmcpp&lt;/a&gt; as my music client together with &lt;a href=&quot;https://docs.mopidy.com/en/latest/installation/&quot;&gt;Mopidy&lt;/a&gt;.&lt;/p&gt;
+<p>I use <a href="https://github.com/ncmpcpp/ncmpcpp">ncmcpp</a> as my music client together with <a href="https://docs.mopidy.com/en/latest/installation/">Mopidy</a>.</p>
 
-&lt;p&gt;Mopidy has an amazing collection of plugins where you can basically combine music from Youtube, Spotify and Soundcloud into one central music player.&lt;/p&gt;
+<p>Mopidy has an amazing collection of plugins where you can basically combine music from Youtube, Spotify and Soundcloud into one central music player.</p>
 
-&lt;h3 id=&quot;text-editor&quot;&gt;Text Editor&lt;/h3&gt;
+<h3 id="text-editor">Text Editor</h3>
 
-&lt;p&gt;I use &lt;a href=&quot;https://github.com/vim/vim&quot;&gt;vim&lt;/a&gt; for prettty much anything. In conjuction with plugins like &lt;a href=&quot;https://github.com/neoclide/coc.nvim&quot;&gt;CoC&lt;/a&gt; it’s a fully fledged IDE, but runs fast.&lt;/p&gt;
+<p>I use <a href="https://github.com/vim/vim">vim</a> for prettty much anything. In conjuction with plugins like <a href="https://github.com/neoclide/coc.nvim">CoC</a> it’s a fully fledged IDE, but runs fast.</p>
 
-&lt;h3 id=&quot;browser&quot;&gt;Browser&lt;/h3&gt;
+<h3 id="browser">Browser</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://www.qutebrowser.org/index.html&quot;&gt;qutebrowser&lt;/a&gt; for most of my browsing needs. The browser has vim keybindings and a lot of customisation options.&lt;/p&gt;
+<p><a href="https://www.qutebrowser.org/index.html">qutebrowser</a> for most of my browsing needs. The browser has vim keybindings and a lot of customisation options.</p>
 
-&lt;h3 id=&quot;document-writing&quot;&gt;Document Writing&lt;/h3&gt;
+<h3 id="document-writing">Document Writing</h3>
 
-&lt;p&gt;I use &lt;a href=&quot;https://en.wikipedia.org/wiki/LaTeX&quot;&gt;LateX&lt;/a&gt; for all of my academic papers. There is a learning curve but if you are still using Microsoft Word, I suggest to give it a try.&lt;/p&gt;
+<p>I use <a href="https://en.wikipedia.org/wiki/LaTeX">LateX</a> for all of my document needs. There is a learning curve but if you are still using Microsoft Word, I suggest to give it a try.</p>
 
-&lt;h3 id=&quot;music-production&quot;&gt;Music Production&lt;/h3&gt;
+<h3 id="music-production">Music Production</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://www.image-line.com/&quot;&gt;FL Studio&lt;/a&gt; is the program I’m most familiar and basically, enjoy. Sadly, there are no sensible Linux alternatives for music production, yet.&lt;/p&gt;
+<p><a href="https://www.image-line.com/">FL Studio</a> is the program I’m most familiar and basically, enjoy. Sadly, there are no sensible Linux alternatives for music production, yet.</p>
 
-&lt;h3 id=&quot;image-editing&quot;&gt;Image Editing&lt;/h3&gt;
+<h3 id="image-editing">Image Editing</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://www.gimp.org/&quot;&gt;GIMP&lt;/a&gt; is perfect for basic to advanced photo editing.&lt;/p&gt;
+<p><a href="https://www.gimp.org/">GIMP</a> is perfect for basic to advanced photo editing.</p>
 
-&lt;h3 id=&quot;font&quot;&gt;Font&lt;/h3&gt;
+<h3 id="font">Font</h3>
 
-&lt;p&gt;My favorite font has to be &lt;a href=&quot;https://github.com/slavfox/Cozette&quot;&gt;Cozette&lt;/a&gt;. It looks great on any context, plus it includes glyphs compatible with ranger-icons. Most people will tell you bitmap fonts are only good for ricing but they are definetely wrong. Looking cool is definently a bonus.&lt;/p&gt;
+<p>My favorite font has to be <a href="https://github.com/slavfox/Cozette">Cozette</a>. It’s cozy.</p>
 
-&lt;h3 id=&quot;terminal-emulator&quot;&gt;Terminal Emulator&lt;/h3&gt;
+<h3 id="terminal-emulator">Terminal Emulator</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/alacritty/alacritty&quot;&gt;Alacritty&lt;/a&gt; is great. It works out of the box and has a simple, readable config file.&lt;/p&gt;
+<p><a href="https://github.com/alacritty/alacritty">Alacritty</a> is great. It works out of the box and has a simple, readable config file.</p>
 
-&lt;h3 id=&quot;window-manager&quot;&gt;Window Manager&lt;/h3&gt;
+<h3 id="window-manager">Window Manager</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://i3wm.org/&quot;&gt;i3&lt;/a&gt; is the first and last window manager I’ve installed.&lt;/p&gt;</content><author><name></name></author><summary type="html">Operating System</summary></entry></feed>
+<p><a href="https://i3wm.org/">i3</a> is the first and last window manager I’ve installed.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[What I use]]></summary></entry></feed>
