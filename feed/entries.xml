@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://vagos.github.io/feed/entries.xml" rel="self" type="application/atom+xml" /><link href="https://vagos.github.io/" rel="alternate" type="text/html" /><updated>2022-05-11T22:03:09+03:00</updated><id>https://vagos.github.io/feed/entries.xml</id><title type="html">Vagos | Entries</title><subtitle></subtitle><entry><title type="html">What I Use</title><link href="https://vagos.github.io/entries/What-I-Use.html" rel="alternate" type="text/html" title="What I Use" /><published>2022-05-11T22:03:09+03:00</published><updated>2022-05-11T22:03:09+03:00</updated><id>https://vagos.github.io/entries/What-I-Use</id><content type="html" xml:base="https://vagos.github.io/entries/What-I-Use.html"><![CDATA[<h3 id="operating-system">Operating System</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://vagoslabrou.xyz/feed/entries.xml" rel="self" type="application/atom+xml" /><link href="https://vagoslabrou.xyz/" rel="alternate" type="text/html" /><updated>2022-06-10T19:16:40+03:00</updated><id>https://vagoslabrou.xyz/feed/entries.xml</id><title type="html">Vagos | Entries</title><subtitle></subtitle><entry><title type="html">What I Use</title><link href="https://vagoslabrou.xyz/entries/What-I-Use.html" rel="alternate" type="text/html" title="What I Use" /><published>2022-06-10T19:16:40+03:00</published><updated>2022-06-10T19:16:40+03:00</updated><id>https://vagoslabrou.xyz/entries/What-I-Use</id><content type="html" xml:base="https://vagoslabrou.xyz/entries/What-I-Use.html"><![CDATA[<h3 id="operating-system">Operating System</h3>
 
 <p>On my main desktop machine I have Windows 10 dual booted with Arch Linux and just Arch on my Laptop.</p>
 
@@ -18,7 +18,7 @@
 
 <h3 id="document-writing">Document Writing</h3>
 
-<p>I use <a href="https://en.wikipedia.org/wiki/LaTeX">LateX</a> for all of my document needs. There is a learning curve but if you are still using Microsoft Word, I suggest to give it a try.</p>
+<p>I use <a href="https://en.wikipedia.org/wiki/LaTeX">LateX</a> for all of my academic papers. There is a learning curve but if you are still using Microsoft Word, I suggest to give it a try.</p>
 
 <h3 id="music-production">Music Production</h3>
 
@@ -30,7 +30,7 @@
 
 <h3 id="font">Font</h3>
 
-<p>My favorite font has to be <a href="https://github.com/slavfox/Cozette">Cozette</a>. It’s cozy.</p>
+<p>My favorite font has to be <a href="https://github.com/slavfox/Cozette">Cozette</a>. It looks great on any context, plus it includes glyphs compatible with ranger-icons. Most people will tell you bitmap fonts are only good for ricing but they are definetely wrong. Looking cool is definently a bonus.</p>
 
 <h3 id="terminal-emulator">Terminal Emulator</h3>
 
