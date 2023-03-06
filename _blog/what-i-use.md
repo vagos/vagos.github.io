@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "what i use"
-description: what i use
+title:  "What I use"
+description: "What I use"
 date: 2023-03-06
 ---
 
@@ -19,7 +19,7 @@ Mopidy has an amazing collection of plugins where you can basically combine musi
 
 ### Text Editor
 
-I use [vim](https://github.com/vim/vim) for prettty much anything. In conjuction with plugins like [CoC](https://github.com/neoclide/coc.nvim) it's a fully fledged IDE, but runs fast.
+I use [neovim](https://neovim.io/) for prettty much any text-editing/code writing. Setting it up as an IDE for some languages (like Java) can be a challenge.
 
 ### Browser
 
@@ -65,3 +65,7 @@ I have a [cgit](https://git.zx2c4.com/cgit/) instance on my home server.
 ### Password Management
 
 I use [pass](https://www.passwordstore.org/) for password management and the afformentioned git hosting to sync my passwords across devices.
+
+### Mail
+
+For viewing my mail in the terminal, I use [aerc](https://aerc-mail.org/). It works really well out of the box and, for me, is better than mutt.
