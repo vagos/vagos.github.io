@@ -9,6 +9,7 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-toc
 
 sass:
   style: compressed
@@ -17,13 +18,10 @@ highlighter: rouge
 
 collections:
 
-  entries: 
+  blog:
     output: true
 
   drafts:
-    output: false
-
-  guests:
     output: false
 
 header_pages:
@@ -37,4 +35,4 @@ font-size: small
 
 feed:
   collections:
-    - entries
+    - blog

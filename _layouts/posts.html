@@ -4,15 +4,13 @@ layout: default
 
 {{ content }}
 
+Feed: <a class="img_link" href="/feed/blog.xml"><img  src="/assets/icons/rss.png" width="36" height="14"></a>
 
 <ul>
-  {% for post in site.entries %}
+  {% for post in site.blog %}
     <li>
         <a href="{{ post.url }}">{{ post.title }}<a>
     </li>
   {% endfor %}
 </ul>
 
-<div style="text-align: center;">
-<a class="img_link" href="/feed/entries.xml"><img  src="assets/icons/rss.png" width="50" height="20"></a>
-</div>

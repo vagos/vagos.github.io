@@ -3,7 +3,6 @@ layout: post
 title:  "Creating a Static Site GuestBook"
 ---
 
-
 Creating a static site guestbook might not be the most practical thing. However, I think it works pretty well for how simple it is.
 
 ### Why
@@ -59,7 +58,7 @@ Here is the Liquid code:
 <ul>
 ```
 
-This just takes all the guest files in the `_guests` folder and adds the conent to the page. 
+This just takes all the guest files in the `_guests` folder and adds the content to the page. 
 
 This means that periodically, I have to log in to my server and check the folder. If any new notes have been created, 
 I'll have to re-generate the site.

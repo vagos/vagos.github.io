@@ -22,7 +22,7 @@
 }
 
 /* BASE */
-body { background-color: var(--bg-color); color: var(--main-color); font-family: "Crimson Text", serif; margin: 0 auto; width: 90%; max-width: 700px; line-height: 1.4em; font-size: 1.1em; }
+body { background-color: var(--bg-color); color: var(--main-color); font-family: monospace; margin: 0 auto; width: 90%; max-width: 700px; line-height: 1.4em; font-size: 1.1em; }
 h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); }
 p, ul, ol { font-size: 1em;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--alt-color); }
@@ -62,16 +62,12 @@ ul :not(.menu) > ul > li:before { content: "*";  margin-right: 9px; }
 
 
 /* ERROR PAGES */
-
 div.error_box { margin: 100px; text-align: center; }
 div.error_box h1 { font-size: 2em; }
 
 /* SMALL TWEAKS */
-
 *::selection { background-color: var(--light-alt-color); color: black; }
-
 .img_link:hover {background-color: var(--bg-color)}
 
 /* COMIC */
-
 .comic {font-family:"Nanum Pen Script"; font-size: 1.5em;}

@@ -1,6 +1,6 @@
 ---
 layout: posts
-permalink: /posts
-permalink_name: /posts
-title: Posts
+permalink: /blog
+permalink_name: /blog
+title: Blog
 ---
