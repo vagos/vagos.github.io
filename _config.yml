@@ -3,7 +3,7 @@ tagline: ""
 description: ""
 github_username: "Vagos"
 baseurl: ""
-url: "https://vagoslabrou.xyz"
+url: "https://vagos.github.io/"
 
 plugins:
   - jemoji

@@ -9,7 +9,7 @@ title: Things
 I upload some of my music on [soundcloud](https://soundcloud.com/vagozino).
 
 ### Competitive Programming
-<a class="img_link" ><img src="https://projecteuler.net/profile/Vagozino.png"></a>
+<a class="img_link" width=200 height=60><img src="https://projecteuler.net/profile/Vagozino.png"></a>
 
 ### Projects
 
