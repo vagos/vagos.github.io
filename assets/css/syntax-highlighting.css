@@ -82,3 +82,10 @@ pre.highlight {
 .highlight .ss {
   color: #859900;
 }highlight .il { color: #0086f7; font-weight: bold } /* Literal.Number.Integer.Long */
+
+/* Specific Language Styles */
+
+.language-plaintext {
+    color: white;
+    background-color: #002b36;
+}
