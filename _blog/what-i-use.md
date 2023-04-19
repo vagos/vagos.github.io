@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "What I use"
-description: "What I use"
-date: 2023-03-06
+title:  "what i use"
+description: "software that I use for various tasks"
+date: 2023-04-19
 ---
 
-This is a collection of mostly software that I use on a daily basis. I will try to keep it updated. 
+This is a collection of software that I use on a daily basis. I will try to keep it updated. 
 
 ### Operating System
 
@@ -32,7 +32,9 @@ I use [LateX](https://en.wikipedia.org/wiki/LaTeX) for all of my academic papers
 
 ### Music Production 
 
-[FL Studio](https://www.image-line.com/) is the program I'm most familiar and basically, enjoy. Sadly, there are no sensible Linux alternatives for music production, yet. 
+I started music production using [FL Studio](https://www.image-line.com/). Since then, I've 
+switched to [Bitwig Studio](https://www.bitwig.com/). [Ardour](http://ardour.org/) 
+is also a great choice but it's missing a good sampler which for my production workflow is quite important.
 
 ### Image Editing 
 

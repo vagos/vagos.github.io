@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  making an MCI command parser for scummvm
+title: making an MCI command parser for scummvm
 date: 2023-04-11
 ---
 
