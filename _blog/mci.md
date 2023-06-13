@@ -64,7 +64,6 @@ For my implementation, I studied how Wine [implemented an MCI parser](https://gi
 Their code is a little esoteric, thanks to variable names like `dwParam2` and
 `S_MciCmdTable[uTbl].lpTable`. It's not entirely the Wine project's fault
 though, as they are following [old windows coding style conventions](https://learn.microsoft.com/en-us/windows/win32/stg/coding-style-conventions).
-Nevertheless, their implementation was of great help. :)
 
 Studying Wine's code gave me some insight into what "compatibility layer" means.
 If a program had code which executed MCI commands using the [Win32 API](https://learn.microsoft.com/en-us/windows/win32/multimedia/sending-a-command), Wine goes through and actually parses 
