@@ -8,8 +8,9 @@ title: About
 ## Contact :mailbox:
 
 * email: [e.lamprou@upnet.gr](mailto:e.lamprou@upnet.gr)
-* discord: Vagoz#9458
+* discord: Vagoz
 * [mastodon](https://mastodon.social/@vagozino)
+* [last.fm](https://www.last.fm/user/Vagozino)
 
 Feel free to contact me about project ideas, interesting topics, or just to say hi.
 I am always open to meeting new people and collaborators.
