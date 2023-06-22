@@ -2,3 +2,4 @@ _tests
 _site
 .jekyll-cache/
 _drafts
+Gemfile.lock
