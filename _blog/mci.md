@@ -1,13 +1,18 @@
 ---
 layout: post
 title: making an MCI command parser for scummvm
+preview: /assets/images/mci/patent.png
+description: I wrote a parser for the MCI protocol, an old Windows media API.
 date: 2023-04-11
 ---
+
 
 A few weeks ago I did some work with the people over at the [ScummVM](https://www.scummvm.org/) codebase, 
 a large engine reimplementation project.
 Their community[^1] is really welcoming and great for anyone (even beginners) interested in
 working in open source.
+
+# The MCI Protocol
 
 I wrote a parser for the MCI protocol, an old Windows media API.
 I was given quite a bit of documentation regarding MCI, and the fact that this protocol 
@@ -37,6 +42,8 @@ fascilitate for low memory devices.
 I wonder if someone implementing the MCI protocol would have to pay IBM for it. 
 
 ![MCI Patent (parsing part)](/assets/images/mci/patent.png)
+
+# The Command Table
 
 An interesting part of their implementation is how there is no
 specific command list/specification. Rather, a command table 
