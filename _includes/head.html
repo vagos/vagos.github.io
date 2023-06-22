@@ -3,6 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+  {% if page.preview %}
+  <meta property="og:image" content="{{ page.preview }}">
+  {% endif %}
+
   <title>
     {% if page.layout != 'home' %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - {{ site.title }}{% else %}
     {{ site.title }}{% endif %}

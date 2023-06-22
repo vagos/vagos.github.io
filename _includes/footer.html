@@ -9,3 +9,7 @@
 </footer>
 
 <script type="text/javascript" src="{{ page.js_file | relative_url }}"></script>
+
+{% for js_file in page.js_files %}
+<script type="text/javascript" src="{{ js_file | relative_url }}"></script>
+{% endfor %}
