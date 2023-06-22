@@ -11,6 +11,7 @@ title: About
 * discord: Vagoz
 * [mastodon](https://mastodon.social/@vagozino)
 * [last.fm](https://www.last.fm/user/Vagozino)
+* [pgp key](/assets/txt/vagos.key)
 
 Feel free to contact me about project ideas, interesting topics, or just to say hi.
 I am always open to meeting new people and collaborators.
@@ -20,5 +21,3 @@ I am always open to meeting new people and collaborators.
 My extended CV can be found [here](/assets/pdf/cv.pdf).
 
 ---
-
-*This site is built with jekyll using a modified version of the jekyll-shell-theme.*
