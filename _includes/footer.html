@@ -1,10 +1,13 @@
 <footer>
 
-    <a></a> <!-- Weird link tags were showing up in the footer, this is a hack to remove them -->
+    <code>
 
-  {{ site.title }}{{ page.url | replace: ".html" "" | replace: " ", "-" }}
+    <a></a> <!-- Weird link tags were showing up in the footer, this is a hack to remove them -->
+    ~{{page.url | replace: ".html" "" | replace: " ", "-" }}
   <br><br>
   {% if site.github_username and site.github_username != "" %} <a href="https://github.com/{{site.github_username}}">@{{ site.github_username }}</a> {% endif %}
+
+  </code>
 
 </footer>
 
