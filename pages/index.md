@@ -7,26 +7,42 @@ title: Home
 ---
 <style>
     .profile {
-    margin-right: 5%;
+        margin-right: 5%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .profile img {
     }
     
     .container {
         display: grid;
         grid-template-columns: 40% 60%;
+        grid-gap: 2%;
+    }
+    
+    .info {
+        box-shadow: 5px 5px 5px -5px black; 
+        margin-left: -10px;
+        margin-right: -10px;
+        background-color: #f5f5f5;
+        padding: 10px 20px;
     }
 </style>
 
 <div class=container>
 
-<div>
+<div class="profile">
     {% for image in site.static_files %}
-    {% if image.path contains 'vagos' %}
-        <img class="profile" style="display: none; float:left;" src="{{ site.baseurl }}{{ image.path }}" alt="Evanglelos image." width=250 height=250/>
+    {% if image.path contains 'images/me' %}
+        <img style="display: none; float:left;" src="{{ site.baseurl }}{{ image.path }}" alt="Evanglelos image." width=250 height=250/>
     {% endif %}
     {% endfor %}
 </div>
 
-<div markdown="1">
+<div markdown="1" class=info>
 **Evangelos Lamprou**
 
 I am an undergraduate student in the ECE department at the University of Patras.
