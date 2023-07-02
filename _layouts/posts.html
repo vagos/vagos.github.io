@@ -8,9 +8,20 @@ Feed: <a class="img_link" href="/feed/blog.xml"><img  src="/assets/icons/rss.png
 
 <ul>
   {% for post in site.blog %}
+
+
+  {% if post.preview %}
+    <img src={{ post.preview }} height="auto" width="auto" style="float: right; max-width: 5em">
+  {% endif %}
+
     <li>
-        <a href="{{ post.url }}">{{ post.title }}<a>
+        <code>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        </code>
     </li>
+    <div style="margin-left: 1em; font-style: italic;">
+        {{ post.description }}
+    </div>
   {% endfor %}
 </ul>
 
