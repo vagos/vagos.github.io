@@ -10,7 +10,7 @@ title: About
 * email: [e.lamprou@upnet.gr](mailto:e.lamprou@upnet.gr)
 * discord: Vagoz
 * [mastodon](https://mastodon.social/@vagozino)
-* [last.fm](https://www.last.fm/user/Vagozino)
+* [last.fm](https://www.last.fm/user/vagozino)
 * [pgp key](/assets/txt/vagos.key)
 
 Feel free to contact me about project ideas, interesting topics, or just to say hi.

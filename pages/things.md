@@ -9,9 +9,14 @@ title: Things
 
 I upload some of my music on [soundcloud](https://soundcloud.com/vagozino).
 
-### Competitive Programming
+### Badges
 
-<a class="img_link"><img width=200 height=60 src="https://projecteuler.net/profile/Vagozino.png"></a>
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 1em">
+
+<a class="img_link" href="https://app.hackthebox.com/profile/537356"> <img src="https://www.hackthebox.eu/badge/image/537356"> </a>
+<a class="img_link"><img width=200 height=60 src="https://projecteuler.net/profile/Vagozino.png"> </a>
+
+</div>
 
 ### Projects
 
