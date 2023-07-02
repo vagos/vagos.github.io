@@ -4,9 +4,7 @@
 
 /* FONTS */
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
 @import url('syntax-highlighting.css');
 
 :root {
@@ -45,6 +43,9 @@ footer { margin-bottom: 20px; }
 img.home_header { width: 100%; margin-top: 5%; margin-bottom: 5%; }
 img.detail_header { width: 100%; }
 img { height: auto; max-width: 100%; }
+img { box-shadow: 5px 5px 5px -5px black; }
+img.emoji { box-shadow: none; }
+
 /* LISTS */
 :not(.menu) > ul { list-style: none; padding-left: 1em; }
 ul :not(.menu) > ul { list-style: none; padding-left: 3em; margin-top: 0.5em; margin-bottom: 0.7em; }

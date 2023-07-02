@@ -1,7 +1,13 @@
 pre.highlight {
- font: normal 13px/20px 'Source Code Pro', monospace; border:1px solid black; 
  margin: 10px; padding: 10px; line-height: 1em; 
  white-space: pre-wrap;
+ box-shadow: 5px 5px 5px -5px black; 
+ border:1px solid black; 
+ font: normal 13px/20px 'Computer Modern Typewriter', monospace;
+}
+
+code {
+ font-family: 'Computer Modern Typewriter', monospace;
 }
 
 .highlight table td { padding: 5px; }
@@ -86,6 +92,5 @@ pre.highlight {
 /* Specific Language Styles */
 
 .language-plaintext {
-    color: white;
-    background-color: black;
+  font-style: italic;
 }
