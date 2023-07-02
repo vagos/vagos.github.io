@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "what i use"
-description: "software that I use for various tasks"
+title:  "Software I Use"
+description: "Software that I use for everyday tasks"
 date: 2023-04-19
 ---
 
