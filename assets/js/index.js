@@ -10,8 +10,16 @@ function getActiveProfile() {
 }
 
 function setRandomPicture() {
+    /* Hide active profile picture. */
+    let current_profile = getActiveProfile()
+    if (current_profile) { current_profile.style.display = "none"; }
+
     let random_img = profile_imgs[Math.floor(Math.random() * profile_imgs.length)];
     random_img.style.display = "inline-block";
 }
 
-setRandomPicture();
+function setPicture(name) {
+    for (let profile_img of profile_imgs) {
+        console.log(profile_img.src)
+    }
+}

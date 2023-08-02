@@ -1,9 +1,11 @@
 ---
+title: Home
 layout: home
 permalink: /index
 permalink_name: /index
-js_file: /assets/js/index.js
-title: Home
+js_files: 
+    - /assets/js/index.js
+profile: smiling_cute
 ---
 <style>
     .profile {
@@ -34,10 +36,16 @@ title: Home
 
 <div class=container>
 
-<div class="profile">
+<div class="profile" onclick="setRandomPicture()">
     {% for image in site.static_files %}
     {% if image.path contains 'images/me' %}
-        <img style="display: none; float:left;" src="{{ site.baseurl }}{{ image.path }}" alt="Evanglelos image." width=250 height=250/>
+    
+    {% if image.path contains page.profile %}
+        <img style="display: inline-block; float:left;" src="{{ image.path }}" alt="Evanglelos Lamprou" width=250 height=250/>
+    {% else %}
+        <img style="display: none; float:left;" src="{{ image.path }}" alt="Evanglelos Lamprou" width=250 height=250/>
+    {% endif %}
+    
     {% endif %}
     {% endfor %}
 </div>
@@ -58,4 +66,3 @@ My blog is [here](/blog).
 </div>
 
 </div>
-
