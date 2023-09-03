@@ -53,10 +53,12 @@ profile: smiling_cute
 <div markdown="1" class=info>
 **Evangelos Lamprou**
 
-I am an undergraduate student in the ECE department at the University of Patras.
+I am currently working as an embedded software engineer at
+[Oticon](https://www.oticon.com/) in Denmark while pursuing my MSc in Computer
+Science at [DTU](https://www.dtu.dk/).
 
-I am currently in the process of writing my diploma thesis, 
-supervised by Prof. [Christos Fidas](http://www.cfidas.info/).
+Before that, I studied ECE at the University of Patras where I completed my
+thesis under the supervision of Prof. [Christos Fidas](http://www.cfidas.info/).
 
 For a detailed [CV](/assets/pdf/cv.pdf) as well as contact information, visit my [about](/about) page.
 
