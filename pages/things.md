@@ -12,10 +12,8 @@ I upload some of my music on [soundcloud](https://soundcloud.com/vagozino).
 ### Badges
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 1em">
-
 <a class="img_link" href="https://app.hackthebox.com/profile/537356"> <img src="https://www.hackthebox.eu/badge/image/537356"> </a>
 <a class="img_link"><img width=200 height=60 src="https://projecteuler.net/profile/Vagozino.png"> </a>
-
 </div>
 
 ### Projects
@@ -27,3 +25,7 @@ An Online MUD game written in C++ and Lua. It is currently in development and no
 #### [Taverner](https://github.com/vagos/taverner)
 
 CLI launcher menu for games (or anything), the UNIX way.
+
+### Publications
+
+<iframe style="min-width: 100%; height: 250px" src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fnetwork%2Ffiles%2FBzAesnaLbDn8NAK5M&noBootstrap=1"></iframe>
