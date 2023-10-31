@@ -1,0 +1,11 @@
+---
+---
+{{ reference }}
+
+{% if entry.url_code %}
+<span><a href="{{ entry.url_code }}">[url]</a></span>
+{% endif %}
+
+{% if entry.url_pdf %}
+<span><a href="{{ entry.url_pdf }}">[pdf]</a></span>
+{% endif %}

@@ -14,6 +14,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-feed'
   gem 'jekyll-toc'
+  gem 'jekyll-scholar'
 end
 
 gem "webrick"
