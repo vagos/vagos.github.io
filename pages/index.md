@@ -5,6 +5,7 @@ permalink: /index
 permalink_name: /index
 js_files: 
     - /assets/js/index.js
+    - /assets/js/now.js
 profile: smiling_cute
 ---
 <style>
@@ -68,3 +69,9 @@ My blog is [here](/blog).
 </div>
 
 </div>
+
+
+#### What I am doing right now
+
+<div id="current-task" style="word-wrap: break-word; white-space: pre-wrap;"> </div>
+Listening to: <span id="current-track"> </span>
