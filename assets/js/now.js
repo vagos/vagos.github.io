@@ -17,11 +17,6 @@ function setNowPlaying() {
             const url = track.url; 
             
             document.getElementById('current-track').innerHTML = `<a href="${url}">${artist} - ${name}</a>`;
-            
-            if (track.image && track.image[2]['#text']) {
-                const image = track.image[2]['#text'];
-                document.getElementById('current-track').innerHTML = `<a href="${url}"><img src="${image}" alt="${artist} - ${name}"></a>`;
-            }
         })
         .catch(error => {
             console.error('Error fetching data:', error);
