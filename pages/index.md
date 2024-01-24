@@ -74,4 +74,4 @@ My blog is [here](/blog).
 #### What I am doing right now
 
 <div id="current-task" style="word-wrap: break-word; white-space: pre-wrap;"> </div>
-Listening to: <span id="current-track"> </span>
+<div id="current-track"> </div>

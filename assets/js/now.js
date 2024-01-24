@@ -8,7 +8,6 @@ function setNowPlaying() {
             const track = data.recenttracks.track[0];
 
             if (track['@attr'] == undefined || track['@attr'].nowplaying !== 'true') {
-                document.getElementById('current-track').innerHTML = "Nothing.";
                 return;
             }
             
@@ -16,7 +15,7 @@ function setNowPlaying() {
             const name = track.name;
             const url = track.url; 
             
-            document.getElementById('current-track').innerHTML = `<a href="${url}">${artist} - ${name}</a>`;
+            document.getElementById('current-track').innerHTML = `Listening to: <a href="${url}">${artist} - ${name}</a>`;
         })
         .catch(error => {
             console.error('Error fetching data:', error);
