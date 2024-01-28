@@ -27,7 +27,7 @@ js_files:
 <div markdown="1">
 
 * [extended cv](/assets/pdf/cv.pdf)
-* email: [e.lamprou@upnet.gr](mailto:e.lamprou@upnet.gr)
+* email: [vagos@lamprou.xyz](mailto:vagos@lamprou.xyz)
 * discord: Vagoz
 * [mastodon](https://mastodon.social/@vagozino)
 * [last.fm](https://www.last.fm/user/vagozino)
