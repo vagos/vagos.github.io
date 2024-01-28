@@ -1,5 +1,5 @@
 all:
-	bundle exec jekyll build
+	jekyll build
 
 watch:
-	bundle exec jekyll serve
+	jekyll serve
