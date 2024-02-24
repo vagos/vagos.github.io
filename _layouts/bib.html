@@ -1,15 +1,24 @@
 ---
 ---
-{{ reference }}
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+        {{ reference }}
 
-{% if entry.url %}
-<span><a href="{{ entry.url }}">[url]</a></span>
-{% endif %}
+        {% if entry.url %}
+        <span><a href="{{ entry.url }}">[url]</a></span>
+        {% endif %}
 
-{% if entry.url_code %}
-<span><a href="{{ entry.url_code }}">[code]</a></span>
-{% endif %}
+        {% if entry.url_code %}
+        <span><a href="{{ entry.url_code }}">[code]</a></span>
+        {% endif %}
 
-{% if entry.url_pdf %}
-<span><a href="{{ entry.url_pdf }}">[pdf]</a></span>
-{% endif %}
+        {% if entry.url_pdf %}
+        <span><a href="{{ entry.url_pdf }}">[pdf]</a></span>
+        {% endif %}
+    </div>
+
+    {% if entry.img %}
+        <img src="{{ entry.img }}" alt="{{ entry.title }}" style="max-width: 15em;
+        height: auto; margin-top:1%" />
+    {% endif %}
+</div>
