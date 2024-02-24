@@ -27,11 +27,13 @@ function setNowDoing() {
     fetch('https://raw.githubusercontent.com/vagos/_now/main/now')
         .then(response => response.text())
         .then(data => {
+            let nowElement = document.getElementById('whatnow');
+            console.log(nowElement);
             if (data.length == 0) {
-                let nowElement = document.getElementById('now');
                 nowElement.style.display = 'none';
                 return;
             }
+            nowElement.style.display = 'block';
             document.getElementById('current-task').innerText = data;
         })
         .catch(error => {

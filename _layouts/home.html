@@ -35,9 +35,9 @@ layout: default
     {% if image.path contains 'images/me' %}
     
     {% if image.path contains page.profile %}
-        <img style="display: inline-block; float:left;" src="{{ image.path }}" alt="Evanglelos Lamprou" width=250 height=250/>
+        <img style="display: inline-block; float:left;" src="{{ image.path }}" alt="profile picture" width=250 height=250/>
     {% else %}
-        <img style="display: none; float:left;" src="{{ image.path }}" alt="Evanglelos Lamprou" width=250 height=250/>
+        <img style="display: none; float:left;" src="{{ image.path }}" alt="profile picture" width=250 height=250/>
     {% endif %}
     
     {% endif %}
@@ -54,7 +54,7 @@ layout: default
 
 <div id="now">
 
-<h4>What I am doing right now</h4>
+<h4 id="whatnow" style="display: none;">What I am doing now</h4>
 
 <div id="current-task" style="word-wrap: break-word; white-space: pre-wrap;"> </div>
 <div id="current-track"> </div>
