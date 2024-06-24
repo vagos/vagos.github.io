@@ -7,10 +7,7 @@
   <meta property="og:image" content="{{ page.preview }}">
   {% endif %}
 
-  <title>
-    {% if page.layout != 'home' %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - {{ site.title }}{% else %}
-    {{ site.title }}{% endif %}
-  </title>
+  <title>{{site.title}} :: {{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 
