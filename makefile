@@ -1,5 +1,5 @@
 all:
 	jekyll build
 
-watch:
+continuous:
 	jekyll serve
