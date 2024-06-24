@@ -26,13 +26,24 @@ js_files:
 
 <div markdown="1">
 
-* [extended cv](/assets/pdf/cv.pdf)
-* email: [vagos@lamprou.xyz](mailto:vagos@lamprou.xyz)
-* discord: Vagoz
-* [mastodon](https://mastodon.social/@vagozino)
-* [last.fm](https://www.last.fm/user/vagozino)
-* [pgp key](/assets/txt/evangelos.key)
-* urbit: ~dopnyr-figbud
+**Info**
+- Full name: Evangelos Lamprou
+- E-mail: [vagos@lamprou.xyz](mailto:vagos@lamprou.xyz)
+- [PGP key](/assets/txt/evangelos.key)
+- [CV](/assets/pdf/cv.pdf)
+
+**Work:**
+- [GitHub](https://github.com/vagos)
+- [Google Scholar](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
+
+**Social:**
+- Discord: Vagoz
+- [Mastodon](https://mastodon.social/@vagozino)
+- [Last.fm](https://www.last.fm/user/vagozino)
+
+**Other:**
+- Chinese name: 法高思
+- Urbit: ~dopnyr-figbud
 
 </div>
 
@@ -47,4 +58,3 @@ js_files:
 
 Feel free to contact me about project ideas, interesting topics, or just to say hi.
 **I am always open to meeting new people and collaborators.**
-

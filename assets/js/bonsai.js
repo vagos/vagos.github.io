@@ -7,8 +7,8 @@ and https://www.reddit.com/r/unixporn/comments/amdt7m/2bwm_cat/
 
 var output = document.getElementById("bonsai-output");
 
-var rows=10
-var cols=10
+var rows=20
+var cols=15
 var grid
 
 var branches = 0
