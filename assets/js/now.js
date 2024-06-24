@@ -28,7 +28,6 @@ function setNowDoing() {
         .then(response => response.text())
         .then(data => {
             let nowElement = document.getElementById('whatnow');
-            console.log(nowElement);
             if (data.length == 0) {
                 nowElement.style.display = 'none';
                 return;

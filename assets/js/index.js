@@ -23,3 +23,5 @@ function setPicture(name) {
         console.log(profile_img.src)
     }
 }
+
+setRandomPicture();
