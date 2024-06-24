@@ -42,7 +42,7 @@ js_files:
 - [Last.fm](https://www.last.fm/user/vagozino)
 
 **Other:**
-- Chinese name: 法高思
+- Chinese name: 法高思 (thanks Siyan!)
 - Urbit: ~dopnyr-figbud
 
 </div>
