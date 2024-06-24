@@ -9,7 +9,7 @@ js_files:
     - /assets/js/now.js
 ---
 
-**Evangelos Lamprou**
+**Vagos Lamprou**
 
 I am currently working as an embedded software engineer at
 [Oticon](https://www.oticon.com/) in Denmark while pursuing my MSc in Computer
