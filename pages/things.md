@@ -5,24 +5,32 @@ permalink_name: /things
 title: Things
 ---
 
-### Music
+## Music
 
 I upload some of my music on [soundcloud](https://soundcloud.com/vagozino).
 
-### Projects
+## Projects
 
-#### [%seax](https://github.com/ilyakooo0/seax)
 
-The Urbit search engine. Created together with [ilyakooo0](https://github.com/ilyakooo0).
+{% for project in site.data.projects %}
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+        <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
+        {{ project.description | markdownify | remove: '<p>' | remove: '</p>' }}
+        
+        {% if entry.url_code %}
+        <span><a href="{{ project.url_code }}">[code]</a></span>
+        {% endif %}
+    </div>
 
-#### [Gauzarbeit](https://github.com/vagos/gauzarbeit)
+    {% if project.img %}
+        <img src="{{ project.img }}" alt="{{ project.title }}" style="max-width: 15em;
+        height: auto; margin-top:1%" />
+    {% endif %}
+</div>
+{% endfor %}
 
-An Online MUD game written in C++ and Lua. It is currently in development and not playable yet.
 
-#### [Taverner](https://github.com/vagos/taverner)
-
-CLI launcher menu for games (or anything), the UNIX way.
-
-### Publications
+## Publications
 
 {% bibliography %}
