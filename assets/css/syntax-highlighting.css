@@ -3,11 +3,10 @@ pre.highlight {
  white-space: pre-wrap;
  box-shadow: 5px 5px 5px -5px black; 
  border:1px solid black; 
- font: normal 13px/20px 'Computer Modern Typewriter', monospace;
 }
 
 code {
- font-family: 'Computer Modern Typewriter', monospace;
+ font-family: monospace;
 }
 
 .highlight table td { padding: 5px; }
@@ -92,5 +91,7 @@ code {
 /* Specific Language Styles */
 
 .language-plaintext {
-  font-style: italic;
+  font-weight: bold;
+  background-color: #dedede;
+
 }
