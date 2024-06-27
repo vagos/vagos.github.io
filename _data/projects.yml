@@ -1,9 +1,12 @@
 - title: "%seax"
   description: "The Urbit meta-search engine. Created with [ilyakooo0](https://github.com/ilyakooo0)"
   img: "assets/images/proj/seax.jpg"
+  url: "seax"
 
 - title: Gauzarbeit
   description: "A highly extensible online MUD game written in C++ and Lua."
+  url: "https://github.com/vagos/gauzarbeit"
 
 - title: taverner
   description: "CLI launcher menu for games (or anything), the UNIX way."
+  url: https://github.com/vagos/taverner
