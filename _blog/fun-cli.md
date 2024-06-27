@@ -30,5 +30,5 @@ $ curl wttr.in
 If the automatic location it detects is incorrect you can use:
 
 ```bash
-curl wttr.in/$YOUR_CITY
+$ curl wttr.in/$YOUR_CITY
 ```
