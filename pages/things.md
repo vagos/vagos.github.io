@@ -5,12 +5,8 @@ permalink_name: /things
 title: Things
 ---
 
-## Music
-
-I upload some of my music on [soundcloud](https://soundcloud.com/vagozino).
 
 ## Projects
-
 
 {% for project in site.data.projects %}
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
