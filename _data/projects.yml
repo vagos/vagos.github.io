@@ -1,6 +1,11 @@
 - title: "Music"
-  description: "I upload some of my music on [soundcloud](https://soundcloud.com/vagozino)."
-
+  description:
+    "I upload some of my music on [soundcloud](https://soundcloud.com/vagozino)
+    and curate a few **playlists** since 2017: 
+      [Bangers](https://music.youtube.com/playlist?list=PLPKZC39eCehOAx4VhRs2ds2EPTPCd1gY4&si=-KA2jhUdDN-OmNqC), 
+      [Das Vibe](https://music.youtube.com/playlist?list=PLPKZC39eCehN-XiatgCRKq5sDPAWmyWho&si=g_gZbTLbnsinR5R0), 
+      [Pizza Time](https://music.youtube.com/playlist?list=PLPKZC39eCehMSL3GgvhMHR683a0VwkHA4&si=Mq8YHi3KYzKF8jws)."
+  img: "assets/images/proj/music.jpg"
 
 - title: "%seax"
   description: "The Urbit meta-search engine. Created with [ilyakooo0](https://github.com/ilyakooo0)"
