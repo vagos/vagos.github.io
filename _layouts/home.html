@@ -5,42 +5,12 @@ layout: default
 {%- if page.detail_image -%}<img class="home_header" src="{{ page.detail_image }}">{%- endif -%}
 
 <style>
-    .profile {
-        margin-right: 5%;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-    }
-    
-    .container {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        grid-gap: 2%;
-    }
-    
-    .description {
-        box-shadow: 5px 5px 5px -5px black; 
-        margin-left: -10px;
-        margin-right: -10px;
-        background-color: #f5f5f5;
-        padding: 10px 20px;
-    }
+    .profile { margin-right: 5%; margin: 0 auto; display: flex; align-items: center; cursor: pointer; }
+    .container { display: grid; grid-template-columns: 40% 60%; grid-gap: 2%; }
+    .description { box-shadow: 5px 5px 5px -5px black; margin-left: -10px; margin-right: -10px; background-color: #f5f5f5; padding: 10px 20px; }
 
-    .info {
-      max-height: 10em; /* Adjust this value to your preferred height */
-      overflow-y: auto;
-      border: 1px solid #ddd;
-      padding: 10px;
-      box-sizing: border-box; /* Ensure padding is included in the height */       
-      margin-top: 1em;
-    }
-
-    td, th {
-      padding: 8px;
-      text-align: left; /* Ensure left alignment */
-      vertical-align: top; /* Align top to ensure consistent vertical alignment */
-    }
+    .info { max-height: 10em; /* Adjust this value to your preferred height */ overflow-y: auto; border: 1px solid #ddd; padding: 10px; box-sizing: border-box; /* Ensure padding is included in the height */       margin-top: 1em; }
+    td, th { padding: 8px; text-align: left; /* Ensure left alignment */ vertical-align: top; /* Align top to ensure consistent vertical alignment */ }
 </style>
 
 <div class=container>
