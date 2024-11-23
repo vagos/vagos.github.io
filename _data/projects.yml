@@ -7,8 +7,9 @@
       [Pizza Time](https://music.youtube.com/playlist?list=PLPKZC39eCehMSL3GgvhMHR683a0VwkHA4&si=Mq8YHi3KYzKF8jws)."
   img: "assets/images/proj/music.jpg"
 
+
 - title: "%seax"
-  description: "The Urbit meta-search engine. Created with [ilyakooo0](https://github.com/ilyakooo0)"
+  description: "The [Urbit](https://urbit.org/) meta-search engine. Created with [ilyakooo0](https://github.com/ilyakooo0)."
   img: "assets/images/proj/seax.jpg"
   url: "seax"
 
@@ -18,6 +19,11 @@
     Created with [Ioanna](https://yoghurtina.github.io/)."
   url: "https://github.com/vagos/aspllmius"
   img: "assets/images/proj/ipasp.jpg"
+
+- title: "Plugins for 'llm'"
+  url: https://llm.datasette.io/en/stable/plugins/directory.html
+  description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap) and [interpolating between embeddings](https://github.com/vagos/llm-interpolate). "
+
 
 - title: Gauzarbeit
   description: "A highly extensible online MUD game written in C++ and Lua."
