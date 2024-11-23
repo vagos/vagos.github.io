@@ -12,7 +12,12 @@ title: Things
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
     <div>
         <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
-        {{ project.description | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% if project.description.size > 1 %}
+            {% assign description = project.description | join: '<br>' %}
+        {% else %}
+            {% assign description = project.description %}
+        {% endif %}
+        {{ description | markdownify | remove: '<p>' | remove: '</p>' }}
     </div>
 
     {% if project.img %}
@@ -21,7 +26,6 @@ title: Things
     {% endif %}
 </div>
 {% endfor %}
-
 
 ## Publications
 
