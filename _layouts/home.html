@@ -9,7 +9,7 @@ layout: default
     .container { display: grid; grid-template-columns: 40% 60%; grid-gap: 2%; }
     .description { box-shadow: 5px 5px 5px -5px black; margin-left: -10px; margin-right: -10px; background-color: #f5f5f5; padding: 10px 20px; }
 
-    .info { max-height: 10em; /* Adjust this value to your preferred height */ overflow-y: auto; border: 1px solid #ddd; padding: 10px; box-sizing: border-box; /* Ensure padding is included in the height */       margin-top: 1em; }
+    .info { max-height: 10em; overflow-y: auto; border: 1px solid #ddd; padding: 10px; box-sizing: border-box; margin-top: 1em; }
     td, th { padding: 8px; text-align: left; /* Ensure left alignment */ vertical-align: top; /* Align top to ensure consistent vertical alignment */ }
 </style>
 
@@ -37,6 +37,7 @@ layout: default
 
 </div> <!-- end of container -->
 
+
 <h3>News</h4>
 
 <div class="info">
@@ -57,9 +58,7 @@ layout: default
 
 <h3 id="whatnow" style="display: none;">Right now</h4>
 
-<div id="now" class="info">
-
-    <div id="current-task" style="word-wrap: break-word; white-space: pre-wrap;"> </div>
-    <div id="current-track"> </div>
-
+<div id="now" class="info" style="display: none;">
+    <div id="current-task" style="word-wrap: break-word; white-space: pre-wrap; display: none;"> </div>
+    <div id="current-track" style="display: none;"> </div>
 </div> <!-- end of now -->
