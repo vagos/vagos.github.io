@@ -41,16 +41,16 @@ systems, and security.
 [[GitHub]](https://github.com/vagos)
 [[Google Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
 <a id="social-extra-plus">[...]</a>
-<div id="social-extra" markdown="1">
-
+<span id="social-extra" markdown="1">
+[[PGP key]](/assets/txt/evangelos.key)
 [[Last.fm]](https://www.last.fm/user/vagozino)
-[PGP key](/assets/txt/evangelos.key)
-[vagos@lamprou.xyz](mailto:vagos@lamprou.xyz)
+[[X]](https://x.com/vagozino)
 [[Mastodon]](https://mastodon.social/@vagozino)
-
-Urbit: ~dopnyr-figbud |
+[[Pinboard]](https://pinboard.in/u:vagozino)
+Mail:vagos@lamprou.xyz
+Urbit:~dopnyr-figbud
 Chinese name: 法高思
-</div>
+</span>
 </div>
 
 <script>
