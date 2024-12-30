@@ -36,7 +36,7 @@ b, strong { color: var(--main-color); }
 .container   { display: grid; grid-template-columns: 30% 70%; grid-gap: 2%; }
 .description { box-shadow: 5px 5px 5px -5px black; border: 1px solid black; background-color: var(--alt-bg-color); padding: 10px 20px; }
 
-.info { max-height: 10em; overflow-y: auto; border: 1px solid black; background: #ffffea; padding: 10px; box-sizing: border-box; margin-top: 1em; }
+.info { max-height: 10em; overflow-y: auto; border: 1px solid black; background: var(--alt-bg-color); padding: 10px; box-sizing: border-box; margin-top: 1em; }
 .info td, .info th { padding: 8px; text-align: left; /* Ensure left alignment */ vertical-align: top; /* Align top to ensure consistent vertical alignment */ }
 
 /* SMALL FONT OVERRIDE */
