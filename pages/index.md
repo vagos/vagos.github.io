@@ -39,7 +39,8 @@ systems, and security.
 
 [[CV]](/assets/pdf/cv.pdf)
 [[GitHub]](https://github.com/vagos)
-[[Google Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
+[[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
+[[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
 <a id="social-extra-plus">[...]</a>
 <span id="social-extra" markdown="1">
 [[PGP key]](/assets/txt/evangelos.key)
@@ -47,7 +48,7 @@ systems, and security.
 [[X]](https://x.com/vagozino)
 [[Mastodon]](https://mastodon.social/@vagozino)
 [[Pinboard]](https://pinboard.in/u:vagozino)
-Mail:vagos@lamprou.xyz
+[[SoundCloud]](https://soundcloud.com/vagozino)
 Urbit:~dopnyr-figbud
 Chinese name: 法高思
 </span>
