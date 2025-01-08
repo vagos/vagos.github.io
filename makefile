@@ -1,3 +1,5 @@
+.PHONY: all continuous cv
+
 all:
 	jekyll build
 
@@ -5,7 +7,10 @@ continuous:
 	jekyll serve
 
 cv:
-	git clone git@github.com:vagos/resume.git
+	@if [ -d resume ]; then \
+		git -C resume pull; \
+	else \
+		git clone git@github.com:vagos/resume.git; \
+	fi
 	make -C resume
 	cp resume/build/main.pdf assets/pdf/cv.pdf
-
