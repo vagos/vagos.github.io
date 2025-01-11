@@ -47,7 +47,7 @@ systems, and security.
 [[Last.fm]](https://www.last.fm/user/vagozino)
 [[X]](https://x.com/vagozino)
 [[Mastodon]](https://mastodon.social/@vagozino)
-[[Pinboard]](https://pinboard.in/u:vagozino)
+[[Pinboard]](https://pinboard.in/u:vagos)
 [[SoundCloud]](https://soundcloud.com/vagozino)
 Urbit:~dopnyr-figbud
 Chinese name: 法高思
