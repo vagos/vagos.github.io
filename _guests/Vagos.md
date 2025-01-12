@@ -1,4 +1,0 @@
----
-name: Vagos
----
-Hello!
