@@ -4,11 +4,8 @@ layout: default
 
 {{ content }}
 
-Feed: <a class="img_link" href="/feed/blog.xml"><img  src="/assets/icons/rss.png" width="36" height="14"></a>
-
 <ul>
   {% for post in site.blog %}
-
 
   {% if post.preview %}
     <img src={{ post.preview }} height="auto" width="auto" style="float: right; max-width: 5em">
@@ -24,4 +21,3 @@ Feed: <a class="img_link" href="/feed/blog.xml"><img  src="/assets/icons/rss.png
     </div>
   {% endfor %}
 </ul>
-
