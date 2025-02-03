@@ -25,7 +25,7 @@ body { background-color: var(--bg-color); color: var(--main-color); font-family:
 h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); }
 p, ul, ol { font-size: 1em;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--alt-color); }
-a:hover { color: var(--bg-color); background-color: var(--alt-color); }
+a:has(img) { text-decoration: none; color: inherit; background-color: transparent; }
 .primary-text { color: var(--main-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: 12px !important; } }
 b, strong { color: var(--main-color); }
@@ -39,6 +39,10 @@ b, strong { color: var(--main-color); }
 .info { max-height: 10em; overflow-y: auto; border: 1px solid black; background: var(--alt-bg-color); padding: 10px; box-sizing: border-box; margin-top: 1em; }
 .info td, .info th { padding: 8px; text-align: left; /* Ensure left alignment */ vertical-align: top; /* Align top to ensure consistent vertical alignment */ }
 
+footer { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+footer #icons { display: flex; gap: 2px; /* Adjust spacing between icons */ }
+footer #text { text-align: right; }
+
 /* SMALL FONT OVERRIDE */
 body.large { line-height: 0.7em; }
 
@@ -51,8 +55,7 @@ header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
 img.home_header { width: 100%; margin-top: 5%; margin-bottom: 5%; }
 img.detail_header { width: 100%; }
-img { height: auto; max-width: 100%; }
-img { box-shadow: 5px 5px 5px -5px black; }
+img, .img { height: auto; max-width: 100%; box-shadow: 5px 5px 5px -5px black; }
 img.emoji { box-shadow: none; }
 
 /* LISTS */
@@ -70,7 +73,6 @@ ul :not(.menu) > ul > li:before { content: "*";  margin-right: 9px; }
 .menu ul li a:hover { text-decoration: none; color: var(--bg-color); background-color: var(--main-color); }
 .menu ul li.page_title { text-align: left; margin-left: 10px; float: left; font-weight: bold; color: var(--main-color) }
 
-
 /* ERROR PAGES */
 div.error_box { margin: 100px; text-align: center; }
 div.error_box h1 { font-size: 2em; }
@@ -81,3 +83,6 @@ div.error_box h1 { font-size: 2em; }
 
 /* COMIC */
 .comic {font-family:"Nanum Pen Script"; font-size: 1.5em;}
+
+/* SPECIAL */
+#music img { max-width: 29%; margin: 0px 1px 0px 1px; }
