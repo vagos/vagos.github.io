@@ -38,8 +38,9 @@ systems, and security.
 
 [[CV]](/assets/pdf/cv.pdf)
 [[GitHub]](https://github.com/vagos)
-[[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
 [[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
+[[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
+[[RSS]](/feed/blog.xml)
 <a id="social-extra-plus">[...]</a>
 <span id="social-extra" markdown="1">
 [[PGP key]](/assets/txt/evangelos.key)
