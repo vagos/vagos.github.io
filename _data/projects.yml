@@ -26,11 +26,22 @@
 
 - title: "Music"
   description:
-    "I upload some of my music on [soundcloud](https://soundcloud.com/vagozino)
-    and curate a few **playlists** since 2017: 
-      [Bangers](https://music.youtube.com/playlist?list=PLPKZC39eCehOAx4VhRs2ds2EPTPCd1gY4&si=-KA2jhUdDN-OmNqC), 
-      [Das Vibe](https://music.youtube.com/playlist?list=PLPKZC39eCehN-XiatgCRKq5sDPAWmyWho&si=g_gZbTLbnsinR5R0), 
-      [Pizza Time](https://music.youtube.com/playlist?list=PLPKZC39eCehMSL3GgvhMHR683a0VwkHA4&si=Mq8YHi3KYzKF8jws)."
-  img: "assets/images/proj/music.jpg"
-
-
+    "I make [music](https://soundcloud.com/vagozino)
+    and curate some playlists since 2017."
+  html: >
+    <div class=img style="display: flex; align-items: center; justify-content: center;
+                background-image: url('/assets/images/proj/music.jpg'); background-size: cover; background-position: center;
+                text-align: center;
+                max-width: 15em; height: auto; aspect-ratio: 2/1;">
+      <div id="music">
+            <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehOAx4VhRs2ds2EPTPCd1gY4&si=-KA2jhUdDN-OmNqC">
+              <img src="/assets/images/proj/bangers.jpg" alt="Bangers Playlist">
+            </a>
+            <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehN-XiatgCRKq5sDPAWmyWho&si=g_gZbTLbnsinR5R0">
+               <img src="/assets/images/proj/das-vibe.jpg" alt="Das Vibe Playlist">
+            </a>
+            <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehNtucl6adQNYRw4Z9YvbBqd">
+               <img src="/assets/images/proj/testing.jpg" alt="Testing Playlist">
+            </a>
+        </div>
+    </div>
