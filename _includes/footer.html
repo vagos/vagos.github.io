@@ -1,14 +1,20 @@
+<br>
+<hr>
+
 <footer>
-
-    <code>
-
-    <a></a> <!-- Weird link tags were showing up in the footer, this is a hack to remove them -->
-    ~{{page.url | replace: ".html" "" | replace: " ", "-" }}
-  <br><br>
-  {% if site.github_username and site.github_username != "" %} <a href="https://github.com/{{site.github_username}}">@{{ site.github_username }}</a> {% endif %}
-
-  </code>
-
+  <div id="icons">
+    <a href="/"><img src="/assets/icons/me.png" width=88px height=31px></a>
+    <a href="/feed/blog.xml"><img src="/assets/icons/rss.gif" width=88px height=31px></a>
+    <a href="https://www.archlinux.org"><img src="/assets/icons/archlinux.png" width=88px height=31px></a>
+    <a href="https://neovim.io"><img src="/assets/icons/neovim.png" width=88px height=31px></a>
+  </div>
+  <div id="text">
+    ~{{ page.url | replace: ".html" "" | replace: " ", "-" }}
+    <br>
+    {% if site.github_username and site.github_username != "" %} 
+      <a href="https://github.com/{{site.github_username}}">@{{ site.github_username }}</a> 
+    {% endif %}
+  </div>
 </footer>
 
 <script type="text/javascript" src="{{ page.js_file | relative_url }}"></script>
