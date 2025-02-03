@@ -107,9 +107,10 @@ socialExtraPlus.onclick = function() {
         {{ description | markdownify | remove: '<p>' | remove: '</p>' }}
     </div>
 
-    {% if project.img %}
-        <img src="{{ project.img }}" alt="{{ project.title }}" style="max-width: 15em;
-        height: auto; margin-top:1%" />
+    {% if project.html %}
+        <div style="max-width: 15em; height: auto; width: 100%;">{{ project.html }}</div>
+    {% elsif project.img %}
+        <img src="{{ project.img }}" alt="{{ project.title }}" style="width: 15em; height: auto; margin-top:1%" />
     {% endif %}
 </div>
 {% endfor %}
