@@ -18,10 +18,6 @@ function setRandomPicture() {
     random_img.style.display = "inline-block";
 }
 
-function setPicture(name) {
-    for (let profile_img of profile_imgs) {
-        console.log(profile_img.src)
-    }
 }
 
 setRandomPicture();
