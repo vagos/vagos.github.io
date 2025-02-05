@@ -16,9 +16,9 @@ js_files:
     {% if image.path contains 'images/me' %}
     
     {% if image.path contains page.profile %}
-        <img style="display: inline-block; float:left;" src="{{ image.path }}" alt="profile picture" width=250 height=250/>
+        <img style="display: inline-block; float:left;" src="{{ image.path }}" alt="profile picture"/>
     {% else %}
-        <img style="display: none; float:left;" src="{{ image.path }}" alt="profile picture" width=250 height=250/>
+        <img style="display: none; float:left;" src="{{ image.path }}" alt="profile picture"/>
     {% endif %}
     
     {% endif %}
