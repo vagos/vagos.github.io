@@ -18,4 +18,10 @@ function setRandomPicture() {
     random_img.style.display = "inline-block";
 }
 
+/* Information about social media */
+const social = document.getElementById('social');
+const socialButton = document.getElementById('social-btn');
+socialButton.onclick = function() {
+    social.style.display = 'inline';
+    socialButton.style.display = 'none';
 }

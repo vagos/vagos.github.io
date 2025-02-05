@@ -41,8 +41,8 @@ systems, and security.
 [[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
 [[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
 [[RSS]](/feed/blog.xml)
-<a id="social-extra-plus">[...]</a>
-<span id="social-extra" markdown="1">
+<a id="social-btn">[...]</a>
+<span id="social" markdown="1" style="display: none">
 [[PGP key]](/assets/txt/evangelos.key)
 [[Last.fm]](https://www.last.fm/user/vagozino)
 [[X]](https://x.com/vagozino)
@@ -53,20 +53,6 @@ Urbit:~dopnyr-figbud
 Chinese name: 法高思
 </span>
 </div>
-
-<script>
-const socialExtra = document.getElementById('social-extra');
-const socialExtraPlus = document.getElementById('social-extra-plus');
-socialExtraPlus.style.cursor = 'pointer';
-socialExtra.style.display = 'none';
-
-socialExtraPlus.onclick = function() {
-    if (socialExtra.style.display === 'none') {
-        socialExtra.style.display = 'inline';
-        socialExtraPlus.style.display = 'none';
-     }
-}
-</script>
 
 </div> <!-- end of container -->
 
