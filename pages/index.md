@@ -3,7 +3,7 @@ title: Home
 layout: home
 permalink: /index
 permalink_name: /index
-profile: sea_looking
+profile: risd
 js_files: 
     - /assets/js/index.js
     - /assets/js/now.js
