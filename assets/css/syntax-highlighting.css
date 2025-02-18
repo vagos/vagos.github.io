@@ -1,5 +1,5 @@
 pre.highlight {
- margin: 10px; padding: 10px; line-height: 1em; 
+ margin: 10px; padding: 10px;
  white-space: pre-wrap;
  box-shadow: 5px 5px 5px -5px black; 
  border:1px solid black; 
@@ -91,7 +91,6 @@ code {
 /* Specific Language Styles */
 
 .language-plaintext {
-  font-weight: bold;
-  background-color: #dedede;
+  background-color: #E5E5E5;
 
 }
