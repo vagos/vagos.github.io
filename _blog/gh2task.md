@@ -45,7 +45,6 @@ while read -r issue; do
 done < <(gh issue ls --json title,url | jq -c '.[]')
 ```
 
-One can turn issue labels into tags by adding `labels` to the `gh issue ls --json`.
 Here, I've added `url` as a [user-defined-attribute (UDA)](https://taskwarrior.org/docs/udas/).
 I can then inspect a task with `task info <task-id>` to see the URL.
 
@@ -64,3 +63,5 @@ Description   An Issue
 Status        Pending
 URL           https://github.com/user/repo/issues/1
 ```
+
+You can also turn issue labels into task tags by adding `labels` to the `gh issue` invocation, like `gh issue ls --json title,url,labels`.
