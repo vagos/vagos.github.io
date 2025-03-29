@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Software I Use"
+title:  "What I Use"
 description: "Software that I use for everyday tasks"
 date: 2023-04-19
 tags: personal software
