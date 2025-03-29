@@ -122,6 +122,10 @@ This article serves as a starting inspiration point for the community to
 start using these technologies for fun and profit. Please reach out with
 thoughts and ideas.
 
+***This article is part of Paged Out! magazine, issue #6. You can get a free PDF of the magazine on the [Paged Out! website](https://pagedout.institute).***
+
+---
+
 [^1]: <https://github.com/simonw/llm>
 
 [^2]: [[`llm-clap`]](https://github.com/vagos/llm-clap), [[`llm-interpolate`]](https://github.com/vagos/llm-interpolate)
