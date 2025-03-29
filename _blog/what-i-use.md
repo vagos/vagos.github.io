@@ -3,6 +3,7 @@ layout: post
 title:  "Software I Use"
 description: "Software that I use for everyday tasks"
 date: 2023-04-19
+tags: personal software
 ---
 
 This is a collection of software that I use on a daily basis. I will try to keep it updated. 

@@ -3,6 +3,7 @@ layout: post
 title: "Add GitHub Issues to Taskwarrior"
 description: "A script to turn GitHub issues into Taskwarrior tasks"
 date: 2025-02-18
+tags: taskwarrior github jq shell
 ---
 
 You can convert GitHub issues into [Taskwarrior](https://taskwarrior.org/)
