@@ -128,7 +128,7 @@ thoughts and ideas.
 
 [^1]: <https://github.com/simonw/llm>
 
-[^2]: [[`llm-clap`]](https://github.com/vagos/llm-clap), [[`llm-interpolate`]](https://github.com/vagos/llm-interpolate)
+[^2]: [`llm-clap`](https://github.com/vagos/llm-clap), [`llm-interpolate`](https://github.com/vagos/llm-interpolate)
 
 [^3]: <https://github.com/zk-org/zk>
 
