@@ -7,13 +7,16 @@ date: 2025-03-29
 tags: shell llm jq taskwarrior
 ---
 
-Here are examples of use of foundation models in a UNIX-like environment.
-A model is defined as foundational when it has been trained on a very large/diverse dataset,
-and can be immediately used or fine-tuned for many downstream tasks.
-Most examples involve using classic and more recent UNIX
-utilities to glue together different tools.
-Then, a foundation model is used to attack a problem that goes beyond well-defined solutions.
-Finally, utilities are used to guardrail and massage the model's output to turn it into something useful.
+Here are some examples of how foundation models can be used in a UNIX-like
+environment. A model is considered foundational when it has been trained on a
+large and diverse dataset, enabling it to be used out-of-the-box or fine-tuned
+for a wide range of downstream tasks.
+
+In most of these examples, classic and modern UNIX utilities are used to stitch
+together different tools. A foundation model is then applied to tackle problems
+that go beyond well-defined solutions. Finally, UNIX utilities are used again
+to constrain, refine, or reshape the model’s output, transforming it into
+something useful.
 
 ![Util and Model](/assets/images/llm-unix/util-and-model.jpg)
 
