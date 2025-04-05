@@ -12,3 +12,9 @@
 
 - date: 2024-8-1
   description: "I am visiting Brown CS's [ATLAS Group](https://atlas.cs.brown.edu) for a research internship!"
+
+- date: 2024-19-12
+  description: "I will be serving as web & publication co-chair of [EuroSec 2025](https://eurosec-workshop.github.io/)!"
+
+- date: 2025-3-27
+  description: "Our paper **From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs** has been accepted at [HotOS XX](https://sigops.org/s/conferences/hotos/2025/)!"
