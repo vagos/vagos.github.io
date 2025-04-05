@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 
 <ul>
-  {% for post in site.blog %}
+  {% for post in site.blog reversed %}
 
   {% if post.preview %}
     <img src={{ post.preview }} height="auto" width="auto" style="float: right; max-width: 5em">
