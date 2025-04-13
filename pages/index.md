@@ -72,14 +72,14 @@ Chinese name: 法高思
   </table>
 </div> <!-- end of news -->
 
-<h2 id="whatnow" style="display: none;">Right now</h2>
+<h3 id="whatnow" style="display: none;">Right now</h3>
 
 <div id="now" class="info" style="display: none;">
     <div id="current-task" style="word-wrap: break-word; white-space: pre-wrap; display: none;"> </div>
     <div id="current-track" style="display: none;"> </div>
 </div> <!-- end of now -->
 
-# Projects
+## Projects
 
 {% for project in site.data.projects %}
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
@@ -101,6 +101,6 @@ Chinese name: 法高思
 </div>
 {% endfor %}
 
-# Publications
+## Publications
 
 {% bibliography %}
