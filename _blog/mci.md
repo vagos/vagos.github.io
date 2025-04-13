@@ -2,7 +2,8 @@
 layout: post
 title: Making an MCI Command Parser for ScummVM
 preview: /assets/images/mci/patent.png
-description: I wrote a parser for the MCI protocol, an old Windows media API.
+description: Writing a parser for the MCI protocol, an old Windows media API.
+tags: mci scummvm wine
 date: 2023-04-11
 ---
 
