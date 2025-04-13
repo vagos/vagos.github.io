@@ -1,0 +1,26 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{arrows.meta, positioning}
+\usepgflibrary{shapes.symbols}
+\usetikzlibrary{shapes.symbols} 
+\usepackage{tikz-3dplot}
+
+\tdplotsetmaincoords{70}{110}
+
+\begin{document}
+\begin{tikzpicture}[tdplot_main_coords, scale=0.6]
+\coordinate (A) at (1,-0.25,1.7);
+\coordinate (B) at (2,1,1.5);
+\coordinate (C) at (2,1.1,0.7);
+\foreach \pt/\name in {A/PacifyHer, B/Trip, C/redrum} {
+    % draw a point
+    \filldraw[black] (\pt) circle (2pt);
+    \node[above right] at (\pt) {\texttt{\name}};
+}
+\draw[red, thick] (A) -- (B) -- (C);
+\draw[thick,-] (0,0,0) -- (1,0,0) node[anchor=north east]{};
+\draw[thick,-] (0,0,0) -- (0,1,0) node[anchor=north west]{};
+\draw[thick,-] (0,0,0) -- (0,0,1) node[anchor=south]{};
+\end{tikzpicture}
+\end{document}
