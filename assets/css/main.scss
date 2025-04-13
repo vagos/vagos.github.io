@@ -23,7 +23,7 @@
 /* BASE */
 body { background-color: var(--bg-color); color: var(--main-color); font-family:"Noto Sans Mono Regular", monospace; font-size: 11pt; line-height: normal; margin: 0 auto; width: 90%; max-width: 700px; line-height: 1.4em; }
 h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); }
-p, ul, ol { font-size: 1em;  color: var(--text-color); }
+p, ul, ol { color: var(--text-color); }
 a { text-decoration: underline;  color: var(--alt-color); }
 a:has(img) { text-decoration: none; color: inherit; background-color: transparent; }
 .primary-text { color: var(--main-color); }
