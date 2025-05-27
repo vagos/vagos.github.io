@@ -14,13 +14,11 @@ js_files:
 <div class="profile">
     {% for image in site.static_files %}
     {% if image.path contains 'images/me' %}
-    
     {% if image.path contains page.profile %}
         <img style="display: inline-block; float:left;" src="{{ image.path }}" alt="profile picture"/>
     {% else %}
         <img style="display: none; float:left;" src="{{ image.path }}" alt="profile picture"/>
     {% endif %}
-    
     {% endif %}
     {% endfor %}
 </div>
@@ -44,11 +42,13 @@ systems, and security.
 <a id="social-btn">[...]</a>
 <span id="social" markdown="1" style="display: none">
 [[PGP key]](/assets/txt/key.txt)
+[[Hacker News]](https://news.ycombinator.com/user?id=vagozino)
 [[Last.fm]](https://www.last.fm/user/vagozino)
+[[SoundCloud]](https://soundcloud.com/vagozino)
 [[X]](https://x.com/vagozino)
 [[Mastodon]](https://mastodon.social/@vagozino)
+[[LinkedIn]](https://www.linkedin.com/in/evangelos-lamprou/)
 [[Pinboard]](https://pinboard.in/u:vagos)
-[[SoundCloud]](https://soundcloud.com/vagozino)
 Urbit:~dopnyr-figbud
 Chinese name: 法高思
 </span>
