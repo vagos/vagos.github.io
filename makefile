@@ -3,7 +3,7 @@
 all:
 	jekyll build
 
-continuous:
+serve:
 	jekyll serve
 
 cv:
