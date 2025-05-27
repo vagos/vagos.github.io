@@ -11,7 +11,7 @@ js_files:
 
 <div class=container>
 
-<div class="profile" onclick="setRandomPicture()">
+<div class="profile">
     {% for image in site.static_files %}
     {% if image.path contains 'images/me' %}
     

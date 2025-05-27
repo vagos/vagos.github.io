@@ -32,7 +32,7 @@ b, strong { color: var(--main-color); }
 .invert { color: var(--bg-color); background-color: var(--main-color); padding-left: 3px; padding-right: 3px; padding-top: 1px; padding-bottom: 1px; }
 
 /* HOME PAGE */
-.profile     { margin-right: 5%; margin: 0 auto; display: flex; align-items: center; cursor: pointer; flex-shrink: 0; width: 25%; height: auto; }
+.profile     { margin-right: 5%; margin: 0 auto; display: flex; align-items: center; flex-shrink: 0; width: 25%; height: auto; }
 .container   { display: grid; grid-template-columns: 30% 70%; grid-gap: 2%; }
 .description { box-shadow: 5px 5px 5px -5px black; border: 1px solid black; background-color: var(--alt-bg-color); padding: 1% 2%; flex-grow: 1; }
 
