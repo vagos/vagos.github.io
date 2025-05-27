@@ -43,7 +43,7 @@ systems, and security.
 [[RSS]](/feed/blog.xml)
 <a id="social-btn">[...]</a>
 <span id="social" markdown="1" style="display: none">
-[[PGP key]](/assets/txt/evangelos.key)
+[[PGP key]](/assets/txt/key.txt)
 [[Last.fm]](https://www.last.fm/user/vagozino)
 [[X]](https://x.com/vagozino)
 [[Mastodon]](https://mastodon.social/@vagozino)
