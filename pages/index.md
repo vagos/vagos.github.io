@@ -41,7 +41,7 @@ systems, and security.
 [[RSS]](/feed/blog.xml)
 <a id="social-btn">[...]</a>
 <span id="social" markdown="1" style="display: none">
-[[PGP key]](/assets/txt/key.txt)
+[[PGP-key]](/assets/txt/key.txt)
 [[Hacker News]](https://news.ycombinator.com/user?id=vagozino)
 [[Last.fm]](https://www.last.fm/user/vagozino)
 [[SoundCloud]](https://soundcloud.com/vagozino)
@@ -49,7 +49,8 @@ systems, and security.
 [[Mastodon]](https://mastodon.social/@vagozino)
 [[LinkedIn]](https://www.linkedin.com/in/evangelos-lamprou/)
 [[Pinboard]](https://pinboard.in/u:vagos)
-Urbit:~dopnyr-figbud
+[[Library Thing]](https://www.librarything.com/profile/elamprou)
+Urbit: ~dopnyr-figbud
 Chinese name: 法高思
 </span>
 </div>
