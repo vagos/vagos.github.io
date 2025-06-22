@@ -27,7 +27,7 @@ js_files:
 
 **Evangelos (Vagos) Lamprou**
 
-I am currently a visiting research fellow at Brown University working with Prof. [Nikos Vasilakis](https://nikos.vasilak.is/).
+I am an incoming PhD student at Brown University advised by Prof. [Nikos Vasilakis](https://nikos.vasilak.is/).
 Previously, I worked as an embedded software engineer at [Demant A/S](https://www.demant.com/).
 I also hold a BSc degree from the [University of Patras](https://www.upatras.gr/en/).
 
