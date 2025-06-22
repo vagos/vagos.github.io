@@ -41,6 +41,8 @@ font-size: small
 scholar:
   style: apa
   bibliography_template: bib
+  sort_by: year
+  order: descending
 
 feed:
   collections:
