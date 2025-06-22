@@ -20,9 +20,9 @@
   description: "A highly extensible online MUD game written in C++ and Lua."
   url: "https://github.com/vagos/gauzarbeit"
 
-- title: taverner
-  description: "CLI launcher menu for games (or anything), the UNIX way."
-  url: https://github.com/vagos/taverner
+- title: gnomi
+  description: "An opinionated system configuration."
+  url: https://github.com/vagos/gnomi
 
 - title: "Music"
   description:

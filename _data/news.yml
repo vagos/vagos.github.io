@@ -18,3 +18,6 @@
 
 - date: 2025-3-27
   description: "Our paper **From Ahead-of- to Just-in-Time and Back Again: Static Analysis for Unix Shell Programs** has been accepted at [HotOS XX](https://sigops.org/s/conferences/hotos/2025/)!"
+
+- date: 2025-7-7
+  description: "Our paper **The Koala Benchmarks for the Shell** has been accepted at [ATC' 25](https://www.usenix.org/conference/atc25/), the last ATC ever!"
