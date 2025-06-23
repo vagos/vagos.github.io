@@ -13,4 +13,4 @@ cv:
 		git clone git@github.com:vagos/resume.git; \
 	fi
 	make -C resume
-	cp resume/build/main.pdf assets/pdf/cv.pdf
+	cp resume/cv.pdf assets/pdf/cv.pdf
