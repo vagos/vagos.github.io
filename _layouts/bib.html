@@ -2,7 +2,25 @@
 ---
 <div style="display: flex; align-items: center; justify-content: space-between;">
     <div>
-        {{ reference }}
+        <em>{{ entry.title }}</em>
+        <br>
+        {% for author in entry.author_array %}
+            {% if site.name contains author.last %}
+                <strong>
+                    <span>{{ author.last }}</span>
+                    <span>{{ author.first | slice:0 }}.</span>
+                </strong>
+            {% else %}
+                <span>{{ author.last }}</span>
+                <span>{{ author.first | slice:0 }}.</span>
+            {% endif %}
+        {% endfor %}
+
+        {% if entry.series %}
+        <span>{{ entry.series }},</span>
+        {% endif %}
+
+        <span>{{ entry.year }}</span>
 
         {% if entry.url_code %}
         <span><a href="{{ entry.url_code }}">[code]</a></span>
