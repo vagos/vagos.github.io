@@ -1,4 +1,5 @@
 title: "Vagos Lamprou"
+name: "Evangelos Lamprou"
 tagline: ""
 description: "Evangelos (Vagos) Lamprou"
 github_username: "vagos"
@@ -22,10 +23,8 @@ sass:
 highlighter: rouge
 
 collections:
-
   blog:
     output: true
-
   drafts:
     output: false
 
@@ -35,7 +34,6 @@ header_pages:
   - pages/about.md
   - pages/posts.md
 
-# set the size of the text to 'large' or 'small', default is small
 font-size: small
 
 scholar:
