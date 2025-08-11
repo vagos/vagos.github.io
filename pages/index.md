@@ -3,7 +3,7 @@ title: Home
 layout: home
 permalink: /index
 permalink_name: /index
-profile: risd
+profile: me
 js_files: 
     - /assets/js/index.js
     - /assets/js/now.js
@@ -12,15 +12,7 @@ js_files:
 <div class=container>
 
 <div class="profile">
-    {% for image in site.static_files %}
-    {% if image.path contains 'images/me' %}
-    {% if image.path contains page.profile %}
-        <img style="display: inline-block; float:left;" src="{{ image.path }}" alt="profile picture"/>
-    {% else %}
-        <img style="display: none; float:left;" src="{{ image.path }}" alt="profile picture"/>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+    <img style="display: inline-block; float:left;" src="/assets/images/me/me.jpg" alt="profile picture"/>
 </div>
 
 <div class="description" markdown=1>
