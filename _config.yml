@@ -12,6 +12,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-toc
   - jekyll-scholar
+  - jekyll-redirect-from
 
 markdown: kramdown
 kramdown:
