@@ -15,7 +15,6 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-toc'
   gem 'jekyll-scholar'
-  gem 'jekyll-redirect-from'
 end
 
 gem "webrick"
