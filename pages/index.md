@@ -27,12 +27,13 @@ My research interests lie in programming-languages, operating
 systems, and security.
 
 [[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
+[[Office]](https://maps.app.goo.gl/HZHnxNLr8WKtgXqL8)
 [[CV]](/assets/pdf/cv.pdf)
-[[GitHub]](https://github.com/vagos)
-[[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
-[[RSS]](/feed/blog.xml)
+[[Src]](https://github.com/vagos)
+[[Pub]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
 <a id="social-btn">[...]</a>
 <span id="social" markdown="1" style="display: none">
+[[RSS]](/feed/blog.xml)
 [[PGP-key]](/assets/txt/key.txt)
 [[Hacker News]](https://news.ycombinator.com/user?id=vagozino)
 [[Last.fm]](https://www.last.fm/user/vagozino)
