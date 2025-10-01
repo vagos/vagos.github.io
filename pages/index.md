@@ -20,11 +20,8 @@ js_files:
 **Evangelos (Vagos) Lamprou**
 
 I am a PhD student at Brown University advised by Prof. [Nikos Vasilakis](https://nikos.vasilak.is/).
-Previously, I worked as an embedded software engineer at [Demant A/S](https://www.demant.com/).
-I also hold a BSc degree from the [University of Patras](https://www.upatras.gr/en/).
 
-My research interests lie in programming-languages, operating
-systems, and security.
+My research interests lie in programming-languages, operating systems, and security.
 
 [[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
 [[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
