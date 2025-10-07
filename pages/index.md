@@ -49,7 +49,7 @@ Chinese name: 法高思
 ## News
 
 <div class="info">
-  {% assign news = site.data.news | sort: 'date' | reverse %}
+  {% assign news = site.data.news | sort_by: 'date' | reverse %}
   <table>
   <tbody>
     {% for item in news %}
