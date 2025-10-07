@@ -44,7 +44,7 @@ Chinese name: 法高思
 </span>
 </div>
 
-</div> <!-- end of container -->
+</div>
 
 ## News
 
@@ -60,14 +60,14 @@ Chinese name: 法高思
     {% endfor %}
   </tbody>
   </table>
-</div> <!-- end of news -->
+</div>
 
 <h3 id="whatnow" style="display: none;">Right now</h3>
 
 <div id="now" class="info" style="display: none;">
     <div id="current-task" style="word-wrap: break-word; white-space: pre-wrap; display: none;"> </div>
     <div id="current-track" style="display: none;"> </div>
-</div> <!-- end of now -->
+</div>
 
 ## Projects
 
