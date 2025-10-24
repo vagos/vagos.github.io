@@ -6,13 +6,9 @@
         <br>
         {% for author in entry.author_array %}
             {% if site.name contains author.last %}
-                <strong>
-                    <span>{{ author.last }}</span>
-                    <span>{{ author.first | slice:0 }}.</span>
-                </strong>
+            <span><strong>{{ author.first }} {{ author.last }}</strong></span>.
             {% else %}
-                <span>{{ author.last }}</span>
-                <span>{{ author.first | slice:0 }}.</span>
+            <span>{{ author.first }} {{ author.last }}</span>.
             {% endif %}
         {% endfor %}
 
@@ -21,6 +17,10 @@
         {% endif %}
 
         <span>{{ entry.year }}</span>
+
+        {% if entry.url %}
+        <span><a href="{{ entry.url }}">[link]</a></span>
+        {% endif %}
 
         {% if entry.url_code %}
         <span><a href="{{ entry.url_code }}">[code]</a></span>
