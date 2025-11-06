@@ -1,3 +1,7 @@
+- title: glic
+  url: https://github.com/vagos/glic
+  description: "Turn any library into a command-line utility."
+
 - title: "'llm' plugins"
   url: https://llm.datasette.io/en/stable/plugins/directory.html
   description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap) and [interpolating between embeddings](https://github.com/vagos/llm-interpolate). "
