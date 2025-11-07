@@ -1,5 +1,6 @@
+.jekyll-cache/
+
 _tests
 _site
-.jekyll-cache/
 _drafts
 Gemfile.lock
