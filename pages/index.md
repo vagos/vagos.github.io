@@ -39,6 +39,7 @@ My research interests lie in programming-languages, operating systems, and secur
 [[LinkedIn]](https://www.linkedin.com/in/evangelos-lamprou/)
 [[Pinboard]](https://pinboard.in/u:vagos)
 [[Library Thing]](https://www.librarything.com/profile/elamprou)
+[[Steam]](https://steamcommunity.com/id/vagoz)
 Urbit: ~dopnyr-figbud
 Chinese name: 法高思
 </span>
