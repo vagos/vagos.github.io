@@ -17,7 +17,9 @@ js_files:
 
 <div class="description" markdown=1>
 
-**Evangelos (Vagos) Lamprou**
+<div id="name">
+Evangelos (Vagos) Lamprou
+</div>
 
 I am a PhD student at Brown University advised by Prof. [Nikos Vasilakis](https://nikos.vasilak.is/).
 

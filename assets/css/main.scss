@@ -15,14 +15,14 @@
 
   --text-color: black;
   --pop-color: black;
-  --alt-color: #5d7e90;
+  --alt-color: blue;
   --light-alt-color: #505b61; 
 
   --width: 700px;
 }
 
 /* BASE */
-body { background-color: var(--bg-color); color: var(--main-color); font-family:"Noto Sans Mono Regular", monospace; font-size: 11pt; line-height: normal; margin: 0 auto; width: 90%; max-width: var(--width); line-height: 1.4em; }
+body { background-color: var(--bg-color); color: var(--main-color); font-family:"Noto Sans Mono Regular", monospace, sans-serif; font-size: .9em; line-height: normal; margin: 0 auto; width: 90%; max-width: var(--width); line-height: 1.4em; }
 h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); }
 p, ul, ol { color: var(--text-color); }
 a { text-decoration: underline;  color: var(--alt-color); }
@@ -88,5 +88,6 @@ div.error_box h1 { font-size: 2em; }
 .comic {font-family:"Nanum Pen Script"; font-size: 1.5em;}
 
 /* SPECIAL */
+#name { font-weight: bold; }
 #music img { max-width: 29%; margin: 0px 1px 0px 1px; }
 #social-btn { cursor: pointer }
