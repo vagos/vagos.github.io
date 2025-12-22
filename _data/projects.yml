@@ -4,7 +4,7 @@
 
 - title: "'llm' plugins"
   url: https://llm.datasette.io/en/stable/plugins/directory.html
-  description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap) and [interpolating between embeddings](https://github.com/vagos/llm-interpolate). "
+  description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap), [interpolating between embeddings](https://github.com/vagos/llm-interpolate), and [sorting](https://github.com/vagos/llm-sort) or [greping](https://github.com/vagos/llm-grep) lines semantically."
 
 
 - title: "%seax"
