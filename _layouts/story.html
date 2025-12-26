@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="{{ site.font-size }} comic">
+
+  <div style="margin: 5%">
+
+    {%- if page.detail_image -%}<img class="detail_header" src="{{ page.detail_image }}">{%- endif -%}
+
+
+    {{ content }}
+
+    </div>
+
+  </body>
+</html>
