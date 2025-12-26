@@ -37,7 +37,7 @@ Buzki
 The most powerful beings.
 </div>
 
-# Chapter 1: I will become the Buzki!
+# Chapter 1: I will become _the_ Buzki!
 
 J. Wankas is a young human who dreams of becoming the Buzki.
 
