@@ -12,7 +12,7 @@ js_files:
 <div class=container>
 
 <div class="profile">
-    <img style="display: inline-block; float:left;" src="/assets/images/me/me.jpg" alt="profile picture"/>
+    <img style="display: inline-block; float:left;" src="/assets/img/me/me.jpg" alt="profile picture"/>
 </div>
 
 <div class="description" markdown=1>

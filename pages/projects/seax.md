@@ -3,7 +3,7 @@ title: seax
 layout: empty
 permalink: /seax
 permalink_name: /seax
-detail_image: /assets/images/proj/seax-parthenon.png
+detail_image: /assets/img/proj/seax-parthenon.png
 ---
 
 It's time Urbit got some searching capabilities.

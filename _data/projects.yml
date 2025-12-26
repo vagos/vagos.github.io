@@ -9,7 +9,7 @@
 
 - title: "%seax"
   description: "The [Urbit](https://urbit.org/) meta-search engine. Created with [ilyakooo0](https://github.com/ilyakooo0)."
-  img: "assets/images/proj/seax.jpg"
+  img: "assets/img/proj/seax.jpg"
   url: "seax"
 
 - title: "Aspllmius"
@@ -17,7 +17,7 @@
     _Received Honorable Mention at the 2023 AI-Hub Comp._
     Created with [Ioanna](https://yoghurtina.github.io/)."
   url: "https://github.com/vagos/aspllmius"
-  img: "assets/images/proj/ipasp.jpg"
+  img: "assets/img/proj/ipasp.jpg"
 
 
 - title: Gauzarbeit
@@ -34,18 +34,18 @@
     and curate some playlists since 2017."
   html: >
     <div class=img style="display: flex; align-items: center; justify-content: center;
-                background-image: url('/assets/images/proj/music.jpg'); background-size: cover; background-position: center;
+                background-image: url('/assets/img/proj/music.jpg'); background-size: cover; background-position: center;
                 text-align: center;
                 max-width: 15em; height: auto; aspect-ratio: 2/1;">
       <div id="music">
             <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehOAx4VhRs2ds2EPTPCd1gY4&si=-KA2jhUdDN-OmNqC">
-              <img src="/assets/images/proj/bangers.jpg" alt="Bangers Playlist">
+              <img src="/assets/img/proj/bangers.jpg" alt="Bangers Playlist">
             </a>
             <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehN-XiatgCRKq5sDPAWmyWho&si=g_gZbTLbnsinR5R0">
-               <img src="/assets/images/proj/das-vibe.jpg" alt="Das Vibe Playlist">
+               <img src="/assets/img/proj/das-vibe.jpg" alt="Das Vibe Playlist">
             </a>
             <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehNtucl6adQNYRw4Z9YvbBqd">
-               <img src="/assets/images/proj/testing.jpg" alt="Testing Playlist">
+               <img src="/assets/img/proj/testing.jpg" alt="Testing Playlist">
             </a>
         </div>
     </div>

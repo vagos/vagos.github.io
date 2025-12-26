@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Foundation Models and Unix"
-preview: /assets/images/llm-unix/util-and-model.jpg
+preview: /assets/img/llm-unix/util-and-model.jpg
 description: "Using foundation models in Unix pipelines"
 date: 2025-03-29
 tags: shell llm jq taskwarrior
@@ -18,7 +18,7 @@ that go beyond well-defined solutions. Finally, UNIX utilities are used again
 to constrain, refine, or reshape the model’s output, transforming it into
 something useful.
 
-![Util and Model](/assets/images/llm-unix/util-and-model.jpg)
+![Util and Model](/assets/img/llm-unix/util-and-model.jpg)
 
 ## Creating playlists
 Consider a scenario where you have downloaded
@@ -32,7 +32,7 @@ recipe takes advantage of the `llm`[^1] utility and some
 accompanying plugins,[^2] but the technique can be implemented using
 analogous tools.
 
-![wrapped image](/assets/images/llm-unix/interpolate.jpg){: .wrap-right width="150px"}
+![wrapped image](/assets/img/llm-unix/interpolate.jpg){: .wrap-right width="150px"}
 A model that understands audio can be used to embed our music
 collection (`$MC`) into a high-dimensional space, where similar songs are
 placed closer together. With the `llm-clap` plugin, we can generate
@@ -115,9 +115,9 @@ tr ' ' '_' | sed 's/$/\.jpg/'
 ```
 
 The (slightly truncated) output filenames are (zoom-in to confirm):
-`A_green_dragon_with_wings_and_a_tail.jpg` ![image](/assets/images/llm-unix/a.jpg){: width="20px"},
-`A_painting_of_a_serene_landscape.jpg` ![image](/assets/images/llm-unix/b.jpg){: width="20px"},
-`urns_of_stone_red_car_in_foreground.jpg` ![image](/assets/images/llm-unix/c.jpg){: width="20px"}.
+`A_green_dragon_with_wings_and_a_tail.jpg` ![image](/assets/img/llm-unix/a.jpg){: width="20px"},
+`A_painting_of_a_serene_landscape.jpg` ![image](/assets/img/llm-unix/b.jpg){: width="20px"},
+`urns_of_stone_red_car_in_foreground.jpg` ![image](/assets/img/llm-unix/c.jpg){: width="20px"}.
 
 # Conclusion
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making an MCI Command Parser for ScummVM
-preview: /assets/images/mci/patent.png
+preview: /assets/img/mci/patent.png
 description: Writing a parser for the MCI protocol, an old Windows media API.
 tags: mci scummvm wine
 date: 2023-04-11
@@ -42,7 +42,7 @@ tokens will be saved in a linked list (as opposed to an array), probably to
 fascilitate for low memory devices. 
 I wonder if someone implementing the MCI protocol would have to pay IBM for it. 
 
-![MCI Patent (parsing part)](/assets/images/mci/patent.png)
+![MCI Patent (parsing part)](/assets/img/mci/patent.png)
 
 # The Command Table
 
