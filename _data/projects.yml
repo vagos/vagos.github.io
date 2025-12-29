@@ -2,6 +2,10 @@
   url: https://github.com/vagos/glic
   description: "Turn any library into a command-line utility."
 
+- title: shasta
+  url: https://github.com/binpash/shasta
+  description: "An AST library for shell programs. Currently supports Bash and POSIX sh."
+
 - title: "'llm' plugins"
   url: https://llm.datasette.io/en/stable/plugins/directory.html
   description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap), [interpolating between embeddings](https://github.com/vagos/llm-interpolate), and [sorting](https://github.com/vagos/llm-sort) or [greping](https://github.com/vagos/llm-grep) lines semantically."
