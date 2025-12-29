@@ -37,7 +37,7 @@ function setNowDoing() {
     fetch('https://raw.githubusercontent.com/vagos/_now/main/now')
         .then(response => response.text())
         .then(data => {
-            if (data.length == 0) {
+            if (data.trim().length === 0) {
                 return;
             }
             makeNowElementVisible();
