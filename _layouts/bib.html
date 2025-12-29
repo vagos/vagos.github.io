@@ -3,7 +3,6 @@
 <div style="display: flex; align-items: center; justify-content: space-between;">
     <div>
         <em>{{ entry.title }}</em>
-        <br>
         {% for author in entry.author_array %}
             {% if site.name contains author.last %}
             <span><strong>{{ author.first }} {{ author.last }}</strong></span>.

@@ -91,6 +91,14 @@ div.error_box h1 { font-size: 2em; }
 .comic .center { text-align: center; }
 .comic .large { font-size: 2em; }
 
+/* PUBLICATIONS */
+ol.bibliography { padding-left: 1.2em; }
+ol.bibliography li { margin: 0 0 .7em 0; padding-bottom: 0.2em; }
+ol.bibliography li:last-child { padding-bottom: 0; }
+// ol.bibliography li > div { align-items: flex-start; }
+ol.bibliography li em { display: block; font-weight: 600; line-height: 1.5em; }
+ol.bibliography li span { color: var(--light-alt-color); line-height: 1.5em; }
+
 /* SPECIAL */
 #name { font-weight: bold; }
 #music img { max-width: 29%; margin: 0px 1px 0px 1px; }
