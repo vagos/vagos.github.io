@@ -6,6 +6,14 @@
   url: https://llm.datasette.io/en/stable/plugins/directory.html
   description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap), [interpolating between embeddings](https://github.com/vagos/llm-interpolate), and [sorting](https://github.com/vagos/llm-sort) or [greping](https://github.com/vagos/llm-grep) lines semantically."
 
+- title: Gauzarbeit
+  description: "A highly extensible online MUD game written in C++ and Lua."
+  url: "https://github.com/vagos/gauzarbeit"
+
+- title: gnomi
+  description: "An opinionated system configuration."
+  url: https://github.com/vagos/gnomi
+
 
 - title: "%seax"
   description: "The [Urbit](https://urbit.org/) meta-search engine. Created with [ilyakooo0](https://github.com/ilyakooo0)."
@@ -18,15 +26,6 @@
     Created with [Ioanna](https://yoghurtina.github.io/)."
   url: "https://github.com/vagos/aspllmius"
   img: "assets/img/proj/ipasp.jpg"
-
-
-- title: Gauzarbeit
-  description: "A highly extensible online MUD game written in C++ and Lua."
-  url: "https://github.com/vagos/gauzarbeit"
-
-- title: gnomi
-  description: "An opinionated system configuration."
-  url: https://github.com/vagos/gnomi
 
 - title: "Music"
   description:
