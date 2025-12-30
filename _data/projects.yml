@@ -24,11 +24,11 @@
   img: "assets/img/proj/seax.jpg"
   url: "seax"
 
-- title: "Aspllmius"
+- title: "McCoy"
   description: "Explainable illness prediction using LLMs and ASP.
     _Received Honorable Mention at the 2023 AI-Hub Comp._
     Created with [Ioanna](https://yoghurtina.github.io/)."
-  url: "https://github.com/vagos/aspllmius"
+  url: "https://github.com/vagos/mccoy"
   img: "assets/img/proj/ipasp.jpg"
 
 - title: "Music"
