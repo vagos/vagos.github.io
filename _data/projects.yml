@@ -4,7 +4,7 @@
 
 - title: shasta
   url: https://github.com/binpash/shasta
-  description: "An AST library for shell programs. Currently supports Bash and POSIX sh."
+  description: "A library for performing transformations on shell programs. Currently supports Bash and POSIX sh."
 
 - title: "'llm' plugins"
   url: https://llm.datasette.io/en/stable/plugins/directory.html
