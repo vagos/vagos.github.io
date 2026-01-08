@@ -33,3 +33,6 @@
 
 - date: 2025-10-20
   description: "Preprints for our work on [specification mining for opaque components](https://arxiv.org/abs/2510.14279) and [secure library regeneration](https://arxiv.org/abs/2510.14522) are out."
+
+- date: 2026-1-13
+  description: "Come to POPL for our tutorial on [static, dynamic, and just-in-time analysis for shell scripts](https://popl26.sigplan.org/details/POPL-2026-tutorials/3/Analyzing-Shell-Scripts)."
