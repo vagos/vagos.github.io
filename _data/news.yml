@@ -29,7 +29,7 @@
   description: "Started my PhD at Brown University."
 
 - date: 2025-10-1
-  description: "Our paper on component exoskeletons was accepted at [PACMI '25](https://sites.google.com/view/pacmi/schedule)."
+  description: "Our paper on component exoskeletons was accepted at the [PACMI '25](https://sites.google.com/view/pacmi/schedule) workshop at SOSP."
 
 - date: 2025-10-20
   description: "Preprints for our work on [specification mining for opaque components](https://arxiv.org/abs/2510.14279) and [secure library regeneration](https://arxiv.org/abs/2510.14522) are out."
