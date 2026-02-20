@@ -85,7 +85,7 @@ div.error_box h1 { font-size: 2em; }
 .img_link:hover {background-color: var(--bg-color)}
 
 /* COMIC */
-.comic {font-family:"Times New Roman", sans-serif}
+.comic {font-family:"Times New Roman", sans-serif; font-size: 1em}
 .comic img { box-shadow: none; margin: 0 auto; padding: 0; max-width: 70%; display: block; border: black 1px solid; }
 .comic .caption { display: block; text-align: center; margin: 0 auto; padding: 0; font-style: italic }
 .comic .center { text-align: center; }
