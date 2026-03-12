@@ -1,3 +1,7 @@
+- title: llmpl
+  url: https://github.com/vagos/llmpl
+  description: Prolog library for interfacing with large language models.
+
 - title: glic
   url: https://github.com/vagos/glic
   description: "Turn any library into a command-line utility."
