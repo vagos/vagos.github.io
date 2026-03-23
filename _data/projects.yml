@@ -10,9 +10,9 @@
   url: https://github.com/binpash/shasta
   description: "A library for performing AST transformations on shell programs. Supports Bash and POSIX sh."
 
-- title: "Plugins for the llm utility"
+- title: "LLM utility plugins"
   url: https://llm.datasette.io/en/stable/plugins/directory.html
-  description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap), [interpolating between embeddings](https://github.com/vagos/llm-interpolate), and [sorting](https://github.com/vagos/llm-sort) or [greping](https://github.com/vagos/llm-grep) lines semantically."
+  description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap), [interpolating between embeddings](https://github.com/vagos/llm-interpolate), and [sorting](https://github.com/vagos/llm-sort) or [filtering](https://github.com/vagos/llm-grep) lines semantically."
 
 - title: Gauzarbeit
   description: "A highly extensible online MUD game written in C++ and Lua."
