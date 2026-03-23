@@ -89,7 +89,7 @@ Chinese name: 法高思
     {% if project.html %}
         <div style="max-width: 15em; height: auto; width: 100%;">{{ project.html }}</div>
     {% elsif project.img %}
-        <img src="{{ project.img }}" alt="{{ project.title }}" style="width: 15em; height: auto; margin-top:1%" />
+        <img src="{{ project.img }}" alt="{{ project.title }}" style="width: 15em; height: auto; margin-top: 7px;" />
     {% endif %}
 </div>
 {% endfor %}
