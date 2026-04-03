@@ -27,7 +27,6 @@ My research interests lie in programming-languages, operating systems, and secur
 
 [[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
 [[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
-[[CV]](/assets/pdf/cv.pdf)
 [[GitHub]](https://github.com/vagos)
 <a id="social-btn">[...]</a>
 <span id="social" markdown="1" style="display: none">
