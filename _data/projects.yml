@@ -1,3 +1,7 @@
+- title: shroulette
+  url: shroulette.lamprou.xyz
+  description: Run `$(curl shroulette.lamprou.xyz) -rf /*`, if you dare.
+
 - title: llmpl
   url: https://github.com/vagos/llmpl
   description: Prolog library for interfacing with large language models.
