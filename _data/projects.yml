@@ -1,5 +1,5 @@
 - title: shroulette
-  url: shroulette.lamprou.xyz
+  url: https://shroulette.lamprou.xyz
   description: Run `$(curl shroulette.lamprou.xyz) -rf /*`, if you dare.
 
 - title: llmpl
