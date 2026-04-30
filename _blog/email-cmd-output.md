@@ -12,7 +12,7 @@ You can email yourself (or anyone else) the output of any command with [`mutt`](
 cmd | mutt -s "$subject" "$email"
 ```
 
-Noting something across devices (almost all of them are connected to my email).
+Sending a note.
 ```bash
 echo "$x $y $z" | mutt -s "Reminder" "$email"
 ```
