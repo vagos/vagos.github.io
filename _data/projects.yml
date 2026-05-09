@@ -1,6 +1,6 @@
 - title: shroulette
   url: https://shroulette.lamprou.xyz
-  description: Run `$(curl shroulette.lamprou.xyz) -rf /*`, if you dare.
+  description: Run `$(curl -L shroulette.lamprou.xyz) -rf /*`, if you dare. :)
 
 - title: llmpl
   url: https://github.com/vagos/llmpl
