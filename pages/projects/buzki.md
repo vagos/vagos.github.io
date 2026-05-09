@@ -1,5 +1,5 @@
 ---
-title: seax
+title: Buzki
 layout: story
 permalink: /buzki
 permalink_name: /buzki
