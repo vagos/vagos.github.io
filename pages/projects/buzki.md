@@ -23,10 +23,10 @@ However, all this accumulated power resulted in seven large wars.
 <img src="{{ imgs }}/0004.jpg">
 
 To control this chaos, the goverments collaborated to create a set of tournaments, where humans could compete for wealth, fame, and glory.
-Within them, humans throughout the universe are fighting to achieve the highest rank...
 
 <img src="{{ imgs }}/0005.jpg">
 
+Within them, humans throughout the universe are fighting to achieve the highest rank...
 <div class="large center">
 Buzki
 </div>
