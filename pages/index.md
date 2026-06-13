@@ -74,7 +74,7 @@ Chinese name: 法高思
 ## Projects
 
 {% for project in site.data.projects %}
-<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.5em;">
     <div>
         <h4><a href="{{ project.url }}">{{ project.title }}</a></h4>
         {% if project.description.size > 1 %}
