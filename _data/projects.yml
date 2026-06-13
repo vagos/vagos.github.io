@@ -14,7 +14,7 @@
   url: https://github.com/binpash/shasta
   description: "A library for performing AST transformations on shell programs. Supports Bash and POSIX sh."
 
-- title: "LLM utility plugins"
+- title: "LLM plugins"
   url: https://llm.datasette.io/en/stable/plugins/directory.html
   description: "Plugins for the `llm` CLI utility for [working with audio files](https://github.com/vagos/llm-clap), [interpolating between embeddings](https://github.com/vagos/llm-interpolate), and [sorting](https://github.com/vagos/llm-sort) or [filtering](https://github.com/vagos/llm-grep) lines semantically."
 
@@ -49,13 +49,13 @@
                 max-width: 15em; height: auto; aspect-ratio: 2/1; margin-top: 7px;">
       <div id="music">
             <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehOAx4VhRs2ds2EPTPCd1gY4&si=-KA2jhUdDN-OmNqC">
-              <img src="/assets/img/proj/bangers.jpg" alt="Bangers Playlist">
+              <img src="/assets/img/proj/bangers.jpg" alt="Bangers Playlist" width="320" height="320">
             </a>
             <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehN-XiatgCRKq5sDPAWmyWho&si=g_gZbTLbnsinR5R0">
-               <img src="/assets/img/proj/das-vibe.jpg" alt="Das Vibe Playlist">
+               <img src="/assets/img/proj/das-vibe.jpg" alt="Das Vibe Playlist" width="320" height="320">
             </a>
             <a href="https://music.youtube.com/playlist?list=PLPKZC39eCehNtucl6adQNYRw4Z9YvbBqd">
-               <img src="/assets/img/proj/testing.jpg" alt="Testing Playlist">
+               <img src="/assets/img/proj/testing.jpg" alt="Testing Playlist" width="320" height="320">
             </a>
         </div>
     </div>
