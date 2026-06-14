@@ -35,7 +35,7 @@
   description: "Preprints for our work on [specification mining for opaque components](https://arxiv.org/abs/2510.14279) and [secure library regeneration](https://arxiv.org/abs/2510.14522) are out."
 
 - date: 2025-11-17
-  description: "Gave a talk on our work on specification mining for opaque software components at [NEPLS]((https://nepls.org/Events/36/))!"
+  description: "Gave a talk on our work on [Caruca](https://arxiv.org/abs/2510.14279) at [NEPLS]((https://nepls.org/Events/36/))!"
 
 - date: 2026-1-13
   description: "Come to POPL for our tutorial on [static, dynamic, and just-in-time analysis for shell scripts](https://popl26.sigplan.org/details/POPL-2026-tutorials/3/Analyzing-Shell-Scripts)!"
@@ -44,4 +44,4 @@
   description: "Our latest work on [bolt-on incremental execution](/assets/pdf/pub/incr:osdi:2026.pdf), [a new effect-control abstraction](/assets/pdf/pub/try:osdi:2026.pdf), and [a new type system for byte-based IPC](/assets/pdf/pub/rt:osdi:2026.pdf) have been accepted at OSDI'26! See you in Seattle in July!"
 
 - date: 2026-5-22
-  description: "Gave a talk at [NJPLS](https://njpls.org/may2026.html) on our work on bolt-on incremental execution!"
+  description: "Gave a talk at [NJPLS](https://njpls.org/may2026.html) on our work on [Incr](/assets/pdf/pub/incr:osdi:2026.pdf)!"
