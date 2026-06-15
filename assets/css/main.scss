@@ -99,6 +99,9 @@ ol.bibliography li:last-child { padding-bottom: 0; }
 ol.bibliography li em { display: block; font-weight: 600; line-height: 1.5em; }
 ol.bibliography li span { color: var(--light-alt-color); line-height: 1.5em; }
 
+ol.bibliography { list-style: none; }
+pre.bibliography { margin: 0 0 1em; white-space: pre-wrap; word-break: break-word; overflow-x: auto; font-family: monospace; line-height: normal; font-size: 1.1em; }
+
 /* SPECIAL */
 #name { font-weight: bold; }
 #music img { max-width: 29%; margin: 0px 1px 0px 1px; }

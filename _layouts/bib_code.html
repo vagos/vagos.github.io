@@ -1,0 +1,10 @@
+<a id="{{ entry.key }}" name="{{ entry.key }}"></a><pre class="bibliography">@{{ entry.type }}{<a href="{{ '/index#' | append: entry.key | relative_url }}">{{ entry.key }}</a>,
+  author = { {{ entry.author }} },
+  title = { {{ entry.title }} },
+{% if entry.booktitle %}  booktitle = { {{ entry.booktitle }} },
+{% endif %}{% if entry.series %}  series = { {{ entry.series }} },
+{% endif %}{% if entry.journal %}  journal = { {{ entry.journal }} },
+{% endif %}  year = { {{ entry.year }} }{% if entry.publisher %},
+  publisher = { {{ entry.publisher }} }{% endif %}{% if entry.url %},
+  url = { {{ entry.url }} }{% endif %}
+}</pre>

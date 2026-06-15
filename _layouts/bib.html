@@ -1,6 +1,6 @@
 ---
 ---
-<div style="display: flex; align-items: center; justify-content: space-between;">
+<div id="{{ entry.key }}" style="display: flex; align-items: center; justify-content: space-between;">
     <div>
         <em><a href="{{ '/assets/pdf/pub/' | append: entry.key | append: '.pdf' | relative_url }}">{{ entry.title }}</a></em>
         {% for author in entry.author_array %}
@@ -21,11 +21,12 @@
         <span><a href="{{ entry.url }}">[link]</a></span>
         {% endif %}
 
-        {% if entry.url_code %}
-        <span><a href="{{ entry.url_code }}">[code]</a></span>
+        {% if entry.artifact %}
+        <span><a href="{{ entry.artifact }}">[code]</a></span>
         {% endif %}
 
         <span><a href="{{ '/assets/pdf/pub/' | append: entry.key | append: '.pdf' | relative_url }}">[pdf]</a></span>
+        <span><a href="{{ '/bib.html#' | append: entry.key | relative_url }}">[bib]</a></span>
     </div>
 
     {% if entry.img %}
