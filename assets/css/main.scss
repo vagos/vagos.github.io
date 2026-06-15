@@ -60,6 +60,8 @@ img, .img { height: auto; max-width: 100%; box-shadow: 5px 5px 5px -5px black; }
 img.emoji { box-shadow: none; }
 img.wrap-left { float: left; margin: 0 10px 10px 0 }
 img.wrap-right { float: right; margin: 0 0 10px 10px }
+.projects.grid { display: flex; flex-wrap: wrap; gap: 1.5em; margin-bottom: 1.5em; }
+.projects.grid > .tile { width: calc(50% - 0.75em); }
 
 /* LISTS */
 :not(.menu) > ul { list-style: none; padding-left: 1em; }
@@ -81,7 +83,7 @@ div.error_box { margin: 100px; text-align: center; }
 div.error_box h1 { font-size: 2em; }
 
 /* SMALL TWEAKS */
-*::selection { background-color: var(--light-alt-color); color: black; }
+*::selection { background-color: var(--light-alt-color); color: white; }
 .img_link:hover {background-color: var(--bg-color)}
 
 /* COMIC */
