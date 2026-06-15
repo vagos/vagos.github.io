@@ -41,7 +41,7 @@
 - title: "Music"
   description:
     "I make [music](https://soundcloud.com/vagozino)
-    and curate some playlists since 2017."
+    and curate some [playlists](https://music.youtube.com/@elamprou) since 2017."
   html: >
     <div class=img style="display: flex; align-items: center; justify-content: center;
                 background-image: url('/assets/img/proj/music.jpg'); background-size: cover; background-position: center;
