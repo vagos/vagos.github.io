@@ -22,8 +22,9 @@ Evangelos (Vagos) Lamprou
 </div>
 
 I am a PhD student at Brown University advised by Prof. [Nikos Vasilakis](https://nikos.vasilak.is/).
+I am part of the [ATLAS](https://atlas.cs.brown.edu/) and [Brown Systems](https://systems.cs.brown.edu/) groups.
 
-My research interests lie in programming-languages, operating systems, and security.
+My research interests lie in programming languages, operating systems, and security.
 
 [[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
 [[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
