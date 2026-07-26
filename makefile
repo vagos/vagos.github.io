@@ -14,3 +14,5 @@ cv:
 	fi
 	make -C resume
 	cp resume/cv.pdf assets/pdf/cv.pdf
+	git add assets/pdf/cv.pdf
+	git commit -m "assets: update cv"
