@@ -35,13 +35,25 @@
   description: "Preprints for our work on [specification mining for opaque components](https://arxiv.org/abs/2510.14279) and [secure library regeneration](https://arxiv.org/abs/2510.14522) are out."
 
 - date: 2025-11-17
-  description: "Gave a talk on our work on [Caruca](https://arxiv.org/abs/2510.14279) at [NEPLS]((https://nepls.org/Events/36/))!"
+  description: "Gave a talk on our work on [Caruca](https://arxiv.org/abs/2510.14279) at [NEPLS](https://nepls.org/Events/36/)!"
 
 - date: 2026-1-13
   description: "Come to POPL for our tutorial on [static, dynamic, and just-in-time analysis for shell scripts](https://popl26.sigplan.org/details/POPL-2026-tutorials/3/Analyzing-Shell-Scripts)!"
+
+- date: 2026-1-30
+  description: "Gave a talk on [Caruca](https://arxiv.org/abs/2510.14279) at [New England Systems Day](https://newenglandsystemsday.github.io/2026/schedule.html)."
 
 - date: 2026-3-26
   description: "Our latest work on [bolt-on incremental execution](/assets/pdf/pub/incr:osdi:2026.pdf), [a new effect-control abstraction](/assets/pdf/pub/try:osdi:2026.pdf), and [a new type system for byte-based IPC](/assets/pdf/pub/rt:osdi:2026.pdf) have been accepted at OSDI'26! See you in Seattle in July!"
 
 - date: 2026-5-22
   description: "Gave a talk at [NJPLS](https://njpls.org/may2026.html) on our work on [Incr](/assets/pdf/pub/incr:osdi:2026.pdf)!"
+
+- date: 2026-7-1
+  description: "Our paper **Ahead-of-time Analysis of Shell Program Effects** has been accepted at [SOSP'26](https://sigops.org/s/conferences/sosp/2026/)!"
+
+- date: 2026-7-13
+  description: "Our OSDI'26 paper **RT: Regular Types for the Streaming Shell** was named a Best Paper nominee."
+
+- date: 2026-7-13
+  description: "Our OSDI'26 paper **Controlling Opaque-Component Effects with Semisolates and Try** won a [Jay Lepreau Best Paper Award](https://www.usenix.org/conference/osdi26/presentation/lamprou) _and_ a [Distinguished Artifact Award](https://github.com/binpash/try)."
