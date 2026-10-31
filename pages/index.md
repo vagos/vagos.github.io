@@ -29,17 +29,19 @@ My research interests lie in programming languages, operating systems, and secur
 [[vagos@lamprou.xyz]](mailto:vagos@lamprou.xyz)
 [[Scholar]](https://scholar.google.com/citations?user=O-fz6ZgAAAAJ&hl=en)
 [[GitHub]](https://github.com/vagos)
-Office: [CIT 267](https://maps.app.goo.gl/NgDP5Q9GtqXwrEQx7)
+[Office: [CIT 267](https://maps.app.goo.gl/NgDP5Q9GtqXwrEQx7)]
 <a id="social-btn">[...]</a>
 <span id="social" markdown="1" style="display: none">
-[[RSS]](/feed/blog.xml)
+[[RSS]](/feed/til.xml)
 [[PGP]](/assets/txt/key.txt)
 [[ORCID]](https://orcid.org/0009-0009-1989-3922)
 [[DBLP]](https://dblp.org/pid/250/9896.html)
+[[arXiv]](https://arxiv.org/search/?query=Evangelos+Lamprou&searchtype=author)
 [[Hacker News]](https://news.ycombinator.com/user?id=vagozino)
 [[lobste.rs]](https://lobste.rs/~vagos)
 [[Last.fm]](https://www.last.fm/user/vagozino)
 [[SoundCloud]](https://soundcloud.com/vagozino)
+[[YouTube]](https://www.youtube.com/@elamprou)
 [[X]](https://x.com/vagozino)
 [[Mastodon]](https://mastodon.social/@vagozino)
 [[Bluesky]](https://bsky.app/profile/vagoz.bsky.social)
@@ -47,8 +49,8 @@ Office: [CIT 267](https://maps.app.goo.gl/NgDP5Q9GtqXwrEQx7)
 [[Pinboard]](https://pinboard.in/u:vagos)
 [[Library Thing]](https://www.librarything.com/profile/elamprou)
 [[Steam]](https://steamcommunity.com/id/vagoz)
-Urbit: ~dopnyr-figbud
-Chinese name: 法高思
+[[Urbit]](https://network.urbit.org/~dopnyr-figbud)
+[Chinese name: 法高思]
 </span>
 </div>
 
