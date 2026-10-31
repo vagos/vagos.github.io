@@ -57,3 +57,6 @@
 
 - date: 2026-7-13
   description: "Our OSDI'26 paper **Controlling Opaque-Component Effects with Semisolates and Try** won a [Jay Lepreau Best Paper Award](https://www.usenix.org/conference/osdi26/presentation/lamprou) _and_ a [Distinguished Artifact Award](https://github.com/binpash/try)."
+
+- date: 2026-10-19
+  description: "Our SOSP'26 paper **Ahead-of-time Analysis of Shell Program Effects** won a [Best Paper Award](https://sigops.org/s/conferences/sosp/2026/)!"

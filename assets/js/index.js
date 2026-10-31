@@ -25,3 +25,11 @@ socialButton.onclick = function() {
     social.style.display = 'inline';
     socialButton.style.display = 'none';
 }
+
+/* Older publications */
+const pubs = document.getElementById('pubs');
+const pubsButton = document.getElementById('pubs-btn');
+pubsButton.onclick = function() {
+    pubs.style.display = 'block';
+    pubsButton.style.display = 'none';
+}

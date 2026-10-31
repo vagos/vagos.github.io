@@ -1,36 +1,38 @@
 ---
 ---
-<div id="{{ entry.key }}" style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-        <em><a href="{{ '/assets/pdf/pub/' | append: entry.key | append: '.pdf' | relative_url }}">{{ entry.title }}</a></em>
+{% assign venue = entry.venue | default: entry.journal %}
+<div id="{{ entry.key }}" class="pub">
+    <div class="pub-venue">{{ venue }}{% unless venue contains "'" or venue contains "’" %} {{ entry.year }}{% endunless %}</div>
+    <div class="pub-body">
+        <div class="pub-title"><strong>"{{ entry.title }}"</strong></div>
+        <div class="pub-authors">
+        {% assign author_annotations = entry['author+an'] | split: ';' %}
         {% for author in entry.author_array %}
+            {% assign author_index = forloop.index %}
+            {% assign equal_contributor = false %}
+            {% for annotation in author_annotations %}
+                {% assign parts = annotation | split: '=' %}
+                {% assign annotated_index = parts[0] | plus: 0 %}
+                {% if annotated_index == author_index and parts[1] contains 'equal' %}
+                    {% assign equal_contributor = true %}
+                {% endif %}
+            {% endfor %}
+            {% if forloop.last and forloop.length > 1 %}and {% endif %}
             {% if site.name contains author.last %}
-            <span><strong>{{ author.first }} {{ author.last }}</strong></span>{% if forloop.last %}.{% else %},{% endif %}
+            <strong>{{ author.first }} {{ author.last }}</strong>{% if equal_contributor %}<sup>*</sup>{% endif %}{% unless forloop.last %}{% if forloop.length > 2 %},{% endif %}{% endunless %}
             {% else %}
-            <span>{{ author.first }} {{ author.last }}</span>{% if forloop.last %}.{% else %},{% endif %}
+            {{ author.first }} {{ author.last }}{% if equal_contributor %}<sup>*</sup>{% endif %}{% unless forloop.last %}{% if forloop.length > 2 %},{% endif %}{% endunless %}
             {% endif %}
         {% endfor %}
-
-        {% if entry.series %}
-        <span>{{ entry.series }},</span>
+        </div>
+        {% if entry.awards %}
+        <div class="pub-awards">{% assign awards = entry.awards | split: ';' %}{% for award in awards %}<strong><span aria-hidden="true">🏆</span> {{ award | strip }}.</strong> {% endfor %}</div>
         {% endif %}
-
-        <span>{{ entry.year }}</span>
-
-        {% if entry.url %}
-        <span><a href="{{ entry.url }}">[link]</a></span>
-        {% endif %}
-
-        {% if entry.artifact %}
-        <span><a href="{{ entry.artifact }}">[code]</a></span>
-        {% endif %}
-
-        <span><a href="{{ '/assets/pdf/pub/' | append: entry.key | append: '.pdf' | relative_url }}">[pdf]</a></span>
-        <span><a href="{{ '/bib.html#' | append: entry.key | relative_url }}">[bib]</a></span>
+        <div class="pub-links">
+            {% if entry.url %}<a href="{{ entry.url }}">[link]</a>{% endif %}
+            {% if entry.artifact %}<a href="{{ entry.artifact }}">[code]</a>{% endif %}
+            <a href="{{ '/assets/pdf/pub/' | append: entry.key | append: '.pdf' | relative_url }}">[pdf]</a>
+            <a href="{{ '/bib.html#' | append: entry.key | relative_url }}">[bib]</a>
+        </div>
     </div>
-
-    {% if entry.img %}
-        <img src="{{ entry.img }}" alt="{{ entry.title }}" style="max-width: 15em;
-        height: auto; margin-top:1%" />
-    {% endif %}
 </div>

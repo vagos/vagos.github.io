@@ -77,6 +77,15 @@ Chinese name: 法高思
     <div id="current-track" style="display: none;"> </div>
 </div>
 
+## Publications
+
+{% bibliography --query @*[year>=2025] %}
+
+<a id="pubs-btn">[...]</a>
+<div id="pubs" style="display: none">
+{% bibliography --query @*[year<=2024] %}
+</div>
+
 ## Projects
 
 <div class="projects grid">
@@ -95,28 +104,3 @@ Chinese name: 法高思
 {% endfor %}
 </div>
 
-<!-- {% for project in site.data.projects %} -->
-<!-- {% if project.img or project.html %} -->
-<!-- <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.5em;"> -->
-<!--     <div> -->
-<!--         <h4><a href="{{ project.url }}">{{ project.title }}</a></h4> -->
-<!--         {% if project.description.size > 1 %} -->
-<!--             {% assign description = project.description | join: '<br>' %} -->
-<!--         {% else %} -->
-<!--             {% assign description = project.description %} -->
-<!--         {% endif %} -->
-<!--         {{ description | markdownify | remove: '<p>' | remove: '</p>' }} -->
-<!--     </div> -->
-
-<!--     {% if project.html %} -->
-<!--         <div style="max-width: 15em; height: auto; width: 100%;">{{ project.html }}</div> -->
-<!--     {% elsif project.img %} -->
-<!--         <img src="{{ project.img }}" alt="{{ project.title }}" style="width: 15em; height: auto; margin-top: 7px;" /> -->
-<!--     {% endif %} -->
-<!-- </div> -->
-<!-- {% endif %} -->
-<!-- {% endfor %} -->
-
-## Publications
-
-{% bibliography %}

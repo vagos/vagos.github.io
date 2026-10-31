@@ -1,4 +1,4 @@
-title: "Vagos Lamprou"
+title: "Evangelos Lamprou"
 name: "Evangelos Lamprou"
 tagline: ""
 description: "Evangelos (Vagos) Lamprou"
@@ -25,6 +25,9 @@ highlighter: rouge
 collections:
   blog:
     output: true
+  til:
+    output: true
+    permalink: /til/:name
   drafts:
     output: false
 
@@ -32,19 +35,20 @@ header_pages:
   - pages/index.md
   - pages/things.md
   - pages/about.md
-  - pages/posts.md
+  - pages/til.md
 
 font-size: small
 
 scholar:
   style: apa
+  bibliography: bib.bib
   bibliography_template: bib
-  sort_by: year
+  sort_by: [year, month]
   order: descending
 
 feed:
   collections:
-    - blog
+    - til
 
 exclude:
   - makefile
