@@ -4,6 +4,8 @@
 {% if entry.booktitle %}  booktitle = { {{ entry.booktitle }} },
 {% endif %}{% if entry.series %}  series = { {{ entry.series }} },
 {% endif %}{% if entry.journal %}  journal = { {{ entry.journal }} },
+{% endif %}{% if entry.eprint %}  eprint = { {{ entry.eprint }} },
+  archivePrefix = { {{ entry.archiveprefix }} },
 {% endif %}  year = { {{ entry.year }} }{% if entry.publisher %},
   publisher = { {{ entry.publisher }} }{% endif %}{% if entry.url %},
   url = { {{ entry.url }} }{% endif %}

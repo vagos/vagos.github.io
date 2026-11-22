@@ -2,7 +2,7 @@
 ---
 {% assign venue = entry.venue | default: entry.journal %}
 <div id="{{ entry.key }}" class="pub">
-    <div class="pub-venue">{{ venue }}{% unless venue contains "'" or venue contains "’" %} {{ entry.year }}{% endunless %}</div>
+    <div class="pub-venue">{{ venue }}</div>
     <div class="pub-body">
         <div class="pub-title"><strong>"{{ entry.title }}"</strong></div>
         <div class="pub-authors">
@@ -31,7 +31,7 @@
         <div class="pub-links">
             {% if entry.url %}<a href="{{ entry.url }}">[link]</a>{% endif %}
             {% if entry.artifact %}<a href="{{ entry.artifact }}">[code]</a>{% endif %}
-            <a href="{{ '/assets/pdf/pub/' | append: entry.key | append: '.pdf' | relative_url }}">[pdf]</a>
+            {% if entry.eprint %}<a href="https://arxiv.org/pdf/{{ entry.eprint }}">[pdf]</a>{% else %}<a href="{{ '/assets/pdf/pub/' | append: entry.key | append: '.pdf' | relative_url }}">[pdf]</a>{% endif %}
             <a href="{{ '/bib.html#' | append: entry.key | relative_url }}">[bib]</a>
         </div>
     </div>

@@ -103,6 +103,7 @@ ol.bibliography li:last-child { margin-bottom: 0; }
 .pub-venue, .pub-authors { color: var(--text-color); }
 // .pub-title { font-weight: 450; }
 .pub-body { overflow-wrap: anywhere; }
+#pubs ol.bibliography { margin-top: 1.2em; }
 // .pub-links { font-size: 0.9em; }
 // @media only screen and (max-width: 500px) { .pub { grid-template-columns: 1fr; } .pub-venue { font-size: 0.9em; margin-bottom: 0.2em; } }
 pre.bibliography { margin: 0 0 1em; white-space: pre-wrap; word-break: break-word; overflow-x: auto; font-family: monospace; line-height: normal }
