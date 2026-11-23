@@ -81,14 +81,15 @@ My research interests lie in programming languages, operating systems, and secur
 
 ## Publications
 
-{% bibliography --query @*[year>=2025] %}
+{% bibliography --query !@misc[year>=2025] %}
 
 <a id="pubs-btn">[...]</a>
 <div id="pubs" style="display: none">
-{% bibliography --query @*[year<=2024] %}
+{% bibliography --query @misc %}
+{% bibliography --query !@misc[year<=2024] %}
 </div>
 
-## Projects
+## Software
 
 <div class="projects grid">
 {% for project in site.data.projects %}
