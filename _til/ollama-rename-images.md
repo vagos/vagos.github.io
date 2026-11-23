@@ -4,7 +4,7 @@ date: 2025-03-29
 tags: llm ollama shell
 ---
 
-Downloaded images tend to have useless names:
+Downloaded images may have useless names:
 
 ```bash
 $ ls
