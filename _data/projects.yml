@@ -1,26 +1,38 @@
-- title: yamu
-  url: https://github.com/vagos/yamu 
-  description: A command-line game library manager.
+- title: try
+  url: https://github.com/binpash/try
+  description: "Inspect, control, and manipulate a command's effects before modifying your live system."
 
-- title: shroulette
-  url: https://shroulette.lamprou.xyz
-  description: Run `$(curl -L shroulette.lamprou.xyz) -rf /*`, if you dare. :)
-
-- title: llmpl
-  url: https://github.com/vagos/llmpl
-  description: Prolog library for interfacing with large language models.
+- title: "llm plugins"
+  url: https://llm.datasette.io/en/stable/plugins/directory.html
+  description: "Plugins for the [`llm` utility](https://github.com/simonw/llm) for [audio embeddings](https://github.com/vagos/llm-clap), [embedding interpolation](https://github.com/vagos/llm-interpolate), [semantic sorting](https://github.com/vagos/llm-sort), and [semantic filtering](https://github.com/vagos/llm-grep)."
 
 - title: glic
   url: https://github.com/vagos/glic
   description: "Turn any library into a command-line utility."
 
+- title: sash
+  url: https://github.com/atlas-brown/sash
+  description: "Ahead-of-time analysis of shell program effects."
+
 - title: shasta
   url: https://github.com/binpash/shasta
   description: "A library for performing AST transformations on shell programs. Supports Bash and POSIX sh."
 
-- title: "llm plugins"
-  url: https://llm.datasette.io/en/stable/plugins/directory.html
-  description: "Plugins for the [`llm` utility](https://github.com/simonw/llm) for [audio embeddings](https://github.com/vagos/llm-clap), [embedding interpolation](https://github.com/vagos/llm-interpolate), [semantic sorting](https://github.com/vagos/llm-sort), and [semantic filtering](https://github.com/vagos/llm-grep)."
+- title: incr
+  url: https://github.com/atlas-brown/incr
+  description: "Bolt-on incremental execution for unmodified shells."
+
+- title: llmpl
+  url: https://github.com/vagos/llmpl
+  description: Prolog library for interfacing with large language models.
+
+- title: rt
+  url: https://github.com/atlas-brown/RT
+  description: "An overlay type system for inter-process communication."
+
+- title: yamu
+  url: https://github.com/vagos/yamu 
+  description: A command-line game library manager.
 
 - title: gauzarbeit
   description: "A highly extensible online MUD game."
@@ -30,6 +42,9 @@
   description: "An opinionated system configuration."
   url: https://github.com/vagos/gnomi
 
+- title: shroulette
+  url: https://shroulette.lamprou.xyz
+  description: Run `$(curl -L shroulette.lamprou.xyz) -rf /*`, if you dare. :)
 
 - title: "%seax"
   description: "The [Urbit](https://urbit.org/) meta-search engine. Created with [ilyakooo0](https://github.com/ilyakooo0)."
